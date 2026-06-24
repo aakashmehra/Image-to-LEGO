@@ -4,7 +4,9 @@ Convert any image into a 3D-printable LEGO-style STL model. Available as a deskt
 
 ## Download
 
-Grab the latest release from the [Actions tab](https://github.com/aakashmehra/Image-to-LEGO/actions) — download the artifact for your platform after a successful build.
+Go to [Releases](https://github.com/aakashmehra/Image-to-LEGO/releases/latest) and download:
+- **macOS** → `.dmg`
+- **Windows** → `.exe` installer
 
 ## Installation
 
