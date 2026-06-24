@@ -67,6 +67,12 @@ jobs:
         run: npm run tauri build -- --target ${{ matrix.target }}
         working-directory: image-to-lego-desktop
 
+      - name: Ad-hoc sign the app (macOS)
+        if: matrix.os == 'macos-14'
+        run: |
+          APP=$(find image-to-lego-desktop/src-tauri/target/${{ matrix.target }}/release/bundle/macos -name "*.app" | head -1)
+          codesign --deep --force --sign - "$APP"
+
       - name: Upload macOS DMG
         if: matrix.os == 'macos-14'
         uses: actions/upload-artifact@v4
