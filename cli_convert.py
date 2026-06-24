@@ -18,7 +18,11 @@ def main():
     args = parser.parse_args()
     
     # Dynamically import image-to-lego.py
-    script_dir = os.path.dirname(os.path.abspath(__file__))
+    # When frozen by PyInstaller, data files are in sys._MEIPASS
+    if getattr(sys, 'frozen', False) and hasattr(sys, '_MEIPASS'):
+        script_dir = sys._MEIPASS
+    else:
+        script_dir = os.path.dirname(os.path.abspath(__file__))
     script_path = os.path.join(script_dir, "image-to-lego.py")
     if not os.path.exists(script_path):
         print(f"Error: image-to-lego.py not found at {script_path}", file=sys.stderr)
