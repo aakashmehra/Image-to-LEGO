@@ -1,0 +1,462 @@
+{% extends 'base.html' %}
+{% block content %}
+{% if not products %}
+<!-- Hero Section (Only show when no products) -->
+<section id="home" class="position-relative min-vh-100 d-flex align-items-center pt-5 scroll-section">
+  <div class="position-absolute top-0 start-0 w-100 h-100" style="z-index: 0;">
+    <img src="{{ url_for('static', filename='images/hero-image.png') }}" alt="LEGO building workspace" class="w-100 h-100" style="object-fit: cover;">
+    <div class="position-absolute top-0 start-0 w-100 h-100 bg-gradient-hero-overlay"></div>
+  </div>
+  <div class="container position-relative" style="z-index: 10; padding-top: 5rem; padding-bottom: 5rem;">
+    <div class="max-w-3xl">
+      <!-- Badge -->
+      <div class="d-inline-flex align-items-center gap-2 px-3 py-2 bg-primary-badge rounded-pill mb-4 animate-fade-in">
+        <i class="bi bi-shop text-primary"></i>
+        <span class="text-sm fw-semibold text-primary">Coming Soon</span>
+      </div>
+      
+      <!-- Main Heading -->
+      <h1 class="display-2 display-md-3 display-lg-4 fw-bold text-dark mb-4 lh-tight animate-slide-up">
+        AP Studios<br><span class="text-primary">Shop</span>
+      </h1>
+      
+      <!-- Description -->
+      <p class="lead text-muted mb-4 animate-slide-up" style="animation-delay: 0.1s; max-width: 600px;">
+        Browse our collection of LEGO sets, custom builds, and exclusive AP Studios merchandise. We're working on bringing you the best LEGO content.
+      </p>
+      
+      <!-- CTA Button -->
+      <div class="mb-5 animate-slide-up" style="animation-delay: 0.2s;">
+        <a href="https://www.youtube.com/apstudios" target="_blank" rel="noopener" class="btn btn-accent btn-lg px-4 py-2 d-inline-flex align-items-center">
+          <i class="bi bi-youtube me-2 fs-5"></i>Visit Our YouTube Channel
+        </a>
+      </div>
+      
+      <!-- Stats Grid -->
+      <div class="row g-4 pt-5 mt-5 border-top border-border animate-fade-in" style="animation-delay: 0.3s;">
+        <div class="col-4">
+          <div class="text-2xl fw-bold text-dark">Coming</div>
+          <div class="text-sm text-muted">Soon</div>
+        </div>
+        <div class="col-4">
+          <div class="text-2xl fw-bold text-dark">LEGO</div>
+          <div class="text-sm text-muted">Sets</div>
+        </div>
+        <div class="col-4">
+          <div class="text-2xl fw-bold text-dark">Custom</div>
+          <div class="text-sm text-muted">Builds</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}
+
+<!-- Products Section -->
+<section class="py-5 {% if products %}pt-5{% else %}bg-gradient-subtle{% endif %} scroll-section">
+  <div class="container">
+    {% if products %}
+      <div class="mb-4">
+        <div class="text-center text-md-start mb-3">
+          <h2 class="display-4 display-md-5 fw-bold text-dark mb-2 mb-md-3">Our Products</h2>
+          <p class="lead text-muted mb-0">Browse our collection of LEGO sets, custom builds, and exclusive AP Studios merchandise.</p>
+        </div>
+        
+        <!-- Category Tabs with Filter Button -->
+        {% if all_categories %}
+        <div class="d-flex align-items-center gap-3 mb-4" style="overflow: visible;">
+          <div class="category-tabs-container flex-grow-1" style="min-width: 0;">
+            <div class="category-tabs">
+              <a href="{{ url_for('shop', min_price=current_filters.min_price, max_price=current_filters.max_price, color=current_filters.color, size=current_filters.size) }}"
+                 class="category-tab {% if not current_filters.category %}active{% endif %}">
+                All
+              </a>
+              {% for cat in all_categories %}
+                <a href="{{ url_for('shop', category=cat, min_price=current_filters.min_price, max_price=current_filters.max_price, color=current_filters.color, size=current_filters.size) }}"
+                   class="category-tab {% if current_filters.category == cat %}active{% endif %}">
+                  {{ cat }}
+                </a>
+              {% endfor %}
+            </div>
+          </div>
+          <!-- Filter Button -->
+          <button type="button" class="btn btn-outline-primary d-flex align-items-center justify-content-center" id="filterToggleBtn" style="flex-shrink: 0;">
+            <i class="bi bi-funnel"></i>
+            <span class="d-none d-md-inline ms-2">Filters</span>
+          </button>
+        </div>
+        {% else %}
+        <div class="d-flex justify-content-end mb-4">
+          <button type="button" class="btn btn-outline-primary d-flex align-items-center justify-content-center" id="filterToggleBtn" style="flex-shrink: 0;">
+            <i class="bi bi-funnel"></i>
+            <span class="d-none d-md-inline ms-2">Filters</span>
+          </button>
+        </div>
+        {% endif %}
+      </div>
+      
+      <!-- Filter Modal -->
+      <div class="filter-modal" id="filterModal">
+        <div class="filter-modal-overlay" id="filterModalOverlay"></div>
+        <div class="filter-modal-content">
+          <div class="d-flex justify-content-between align-items-center mb-4">
+            <h3 class="h5 fw-bold mb-0">Filters</h3>
+            <button type="button" class="btn-close" id="filterModalClose"></button>
+          </div>
+          <form method="get" action="{{ url_for('shop') }}" id="filterForm">
+            <!-- Preserve category filter -->
+            {% if current_filters.category %}
+              <input type="hidden" name="category" value="{{ current_filters.category }}">
+            {% endif %}
+            
+            <!-- Price Filter -->
+            <div class="mb-4">
+              <label class="form-label fw-semibold mb-2">Price Range</label>
+              <div class="row g-2">
+                <div class="col-6">
+                  <input type="number" class="form-control form-control-sm" name="min_price" 
+                         placeholder="Min" value="{{ current_filters.min_price if current_filters.min_price else '' }}"
+                         min="{{ min_product_price }}" max="{{ max_product_price }}">
+                </div>
+                <div class="col-6">
+                  <input type="number" class="form-control form-control-sm" name="max_price" 
+                         placeholder="Max" value="{{ current_filters.max_price if current_filters.max_price else '' }}"
+                         min="{{ min_product_price }}" max="{{ max_product_price }}">
+                </div>
+              </div>
+            </div>
+            
+            <!-- Color Filter -->
+            {% if all_colors %}
+            <div class="mb-4">
+              <label class="form-label fw-semibold mb-2">Color</label>
+              <select class="form-select form-select-sm" name="color">
+                <option value="">All Colors</option>
+                {% for color in all_colors %}
+                  <option value="{{ color }}" {% if current_filters.color == color %}selected{% endif %}>{{ color }}</option>
+                {% endfor %}
+              </select>
+            </div>
+            {% endif %}
+            
+            <!-- Size Filter -->
+            {% if all_sizes %}
+            <div class="mb-4">
+              <label class="form-label fw-semibold mb-2">Size</label>
+              <select class="form-select form-select-sm" name="size">
+                <option value="">All Sizes</option>
+                {% for size in all_sizes %}
+                  <option value="{{ size }}" {% if current_filters.size == size %}selected{% endif %}>{{ size }}</option>
+                {% endfor %}
+              </select>
+            </div>
+            {% endif %}
+            
+            <div class="d-flex gap-2">
+              <button type="submit" class="btn btn-primary btn-sm flex-grow-1">Apply Filters</button>
+              <a href="{% if current_filters.category %}{{ url_for('shop', category=current_filters.category) }}{% else %}{{ url_for('shop') }}{% endif %}" class="btn btn-outline-secondary btn-sm">Clear</a>
+            </div>
+          </form>
+        </div>
+      </div>
+      
+      <div class="row g-4">
+        <!-- Products Grid -->
+        <div class="col-12">
+          <div class="d-flex justify-content-between align-items-center mb-3">
+            <p class="text-muted mb-0">
+              Showing {{ products|length }} product{% if products|length != 1 %}s{% endif %}
+              {% if current_filters.min_price or current_filters.max_price or current_filters.category or current_filters.color or current_filters.size %}
+                (filtered)
+              {% endif %}
+            </p>
+          </div>
+          <div class="row g-3 g-md-4">
+        {% for product in products %}
+        <div class="col-6 col-md-6 col-lg-4">
+          <a href="{{ url_for('product_detail', slug=product.slug) }}" class="text-decoration-none">
+            <div class="card shadow-soft hover-shadow-large transition-all border border-border rounded-3 overflow-hidden h-100 content-card-lovable">
+              <!-- Product Image -->
+              <div class="position-relative ratio ratio-1x1 overflow-hidden bg-muted">
+                {% if product.images %}
+                  <img src="{{ url_for('static', filename=product.images[0]) }}" alt="{{ product.title }}" class="w-100 h-100" style="object-fit: cover;" loading="lazy">
+                {% else %}
+                  <div class="w-100 h-100 d-flex align-items-center justify-content-center bg-light">
+                    <i class="bi bi-image text-muted fs-1"></i>
+                  </div>
+                {% endif %}
+              </div>
+              <!-- Product Info -->
+              <div class="card-body p-4 d-flex flex-column">
+                <h3 class="h5 fw-bold text-dark mb-2 group-hover-text-primary transition-colors">{{ product.title }}</h3>
+                {% if product.short_description %}
+                  <p class="text-muted small mb-3 flex-grow-1 d-none d-md-block">{{ product.short_description[:100] }}{% if product.short_description|length > 100 %}...{% endif %}</p>
+                {% endif %}
+                <div class="mt-auto">
+                  <div class="d-flex align-items-center gap-3 mb-2">
+                    {% if product.compare_at_price and product.compare_at_price > product.price %}
+                      <span class="text-muted text-decoration-line-through small">${{ (product.compare_at_price / 100) | round(2) }}</span>
+                      <span class="text-primary fw-bold fs-5">${{ (product.price / 100) | round(2) }}</span>
+                    {% else %}
+                      <span class="text-primary fw-bold fs-5">${{ (product.price / 100) | round(2) }}</span>
+                    {% endif %}
+                  </div>
+                  {% if product.inventory_policy == 'deny' and product.inventory <= 0 %}
+                    <span class="badge bg-danger">Out of Stock</span>
+                  {% elif product.inventory_policy == 'deny' and product.inventory > 0 %}
+                    <span class="badge bg-success">In Stock</span>
+                  {% endif %}
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        {% endfor %}
+          </div>
+        </div>
+      </div>
+    {% else %}
+      <!-- Empty State -->
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-10 col-lg-8 col-xl-6">
+          <div class="card shadow-soft border border-border rounded-3 p-5 bg-white text-center">
+            <i class="bi bi-info-circle text-primary fs-1 mb-4 d-block"></i>
+            <h3 class="h2 fw-bold text-dark mb-3">Shop Coming Soon!</h3>
+            <p class="lead text-muted mb-4">
+              We're working on bringing you exclusive LEGO sets, custom builds, and AP Studios merchandise. Stay tuned for updates and follow us on YouTube for the latest content!
+            </p>
+            <a href="https://www.youtube.com/apstudios" target="_blank" rel="noopener" class="btn btn-primary btn-lg px-4 py-2 d-inline-flex align-items-center">
+              <i class="bi bi-youtube me-2 fs-5"></i>Visit Our YouTube Channel
+            </a>
+          </div>
+        </div>
+      </div>
+    {% endif %}
+  </div>
+</section>
+
+<style>
+.category-tabs-container {
+  overflow-x: auto;
+  white-space: nowrap;
+  padding-bottom: 10px;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+  min-width: 0;
+  flex: 1;
+}
+
+.category-tabs-container::-webkit-scrollbar {
+  height: 6px;
+}
+
+.category-tabs-container::-webkit-scrollbar-track {
+  background: #f3f4f6;
+  border-radius: 3px;
+}
+
+.category-tabs-container::-webkit-scrollbar-thumb {
+  background: #d1d5db;
+  border-radius: 3px;
+}
+
+.category-tabs-container::-webkit-scrollbar-thumb:hover {
+  background: #9ca3af;
+}
+
+.category-tabs {
+  display: flex;
+  gap: 0.75rem;
+  padding: 0.5rem 0;
+  align-items: center;
+}
+
+.category-tab {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.5rem 1.25rem;
+  border-radius: 9999px;
+  background-color: #f3f4f6;
+  color: #4b5563;
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  flex-shrink: 0;
+  white-space: nowrap;
+  border: 1px solid transparent;
+}
+
+.category-tab:hover {
+  background-color: #e5e7eb;
+  color: #1f2937;
+  text-decoration: none;
+  transform: translateY(-1px);
+}
+
+.category-tab.active {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  font-weight: 600;
+  border-color: #1a1a1a;
+}
+
+.category-tab.active:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/* Filter Modal */
+.filter-modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1050;
+}
+
+.filter-modal.active {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.filter-modal-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(4px);
+}
+
+.filter-modal-content {
+  position: relative;
+  background: white;
+  border-radius: 16px;
+  padding: 2rem;
+  max-width: 500px;
+  width: 90%;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  z-index: 1051;
+  animation: modalSlideIn 0.3s ease-out;
+}
+
+@keyframes modalSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.filter-modal-content .btn-close {
+  margin: 0;
+  padding: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .filter-modal-content {
+    width: 95%;
+    padding: 1.5rem;
+    max-height: 85vh;
+  }
+  
+  .category-tabs {
+    gap: 0.5rem;
+    padding: 0.25rem 0;
+  }
+  
+  .category-tab {
+    padding: 0.4rem 0.875rem;
+    font-size: 0.8125rem;
+  }
+  
+  .display-4 {
+    font-size: 2rem !important;
+  }
+  
+  .lead {
+    font-size: 1rem;
+  }
+  
+  .d-flex.align-items-center.gap-3 {
+    flex-wrap: nowrap !important;
+    overflow: visible;
+  }
+  
+  .category-tabs-container {
+    flex: 1;
+    min-width: 0;
+    overflow-x: auto;
+  }
+  
+  #filterToggleBtn {
+    flex-shrink: 0 !important;
+    width: auto !important;
+    padding: 0.5rem !important;
+    min-width: 40px;
+    height: 40px;
+  }
+  
+  #filterToggleBtn i {
+    font-size: 1.25rem;
+  }
+  
+  .card-body {
+    padding: 1rem !important;
+  }
+  
+  .card-body h3 {
+    font-size: 1rem;
+  }
+  
+  .card-body .fs-5 {
+    font-size: 1.125rem !important;
+  }
+}
+</style>
+
+<script>
+  // Filter Modal Toggle
+  const filterToggleBtn = document.getElementById('filterToggleBtn');
+  const filterModal = document.getElementById('filterModal');
+  const filterModalClose = document.getElementById('filterModalClose');
+  const filterModalOverlay = document.getElementById('filterModalOverlay');
+
+  if (filterToggleBtn && filterModal) {
+    filterToggleBtn.addEventListener('click', function() {
+      filterModal.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    });
+
+    function closeModal() {
+      filterModal.classList.remove('active');
+      document.body.style.overflow = '';
+    }
+
+    if (filterModalClose) {
+      filterModalClose.addEventListener('click', closeModal);
+    }
+
+    if (filterModalOverlay) {
+      filterModalOverlay.addEventListener('click', closeModal);
+    }
+
+    // Close on Escape key
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape' && filterModal.classList.contains('active')) {
+        closeModal();
+      }
+    });
+  }
+</script>
+{% endblock %}

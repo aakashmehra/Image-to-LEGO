@@ -1,0 +1,79 @@
+[
+  {
+    "id": "3c1687f7-4288-4e17-9f53-78ec038f3709",
+    "slug": "lego-beyblade-aquashade",
+    "title": "Aquashade",
+    "short_description": "Budget-friendly lineup of AP-Studios' special LEGO Beyblades",
+    "description": "Get ready to battle with Aquashade, the awesome LEGO Beyblade from AP-Studios! This Beyblade mixes yellow and blue LEGO pieces, making it look like the power of water in motion.\r\n\r\nBuilt with 39 LEGO pieces, Aquashade spins fast and smooth, perfect for exciting battles with friends. It’s strong, cool-looking, and super fun to build and play with!\r\n\r\n💧 Features:\r\n\r\nMade with 39 LEGO pieces\r\n\r\nCool yellow and blue color design\r\n\r\nFast and balanced spins for epic battles\r\n\r\nWorks great with AP-Studios launchers\r\n\r\nEasy instructions included\r\n\r\n📦 Ships in 1–3 days!",
+    "price": 815,
+    "compare_at_price": 1250,
+    "currency": "USD",
+    "status": "published",
+    "sku": "SLB-001",
+    "inventory": 10,
+    "inventory_policy": "continue",
+    "images": [
+      "images/products/20251104_130910_Aquashade_View_1.png",
+      "images/products/20251104_130910_Aquashade_View_2.png",
+      "images/products/20251104_130910_Aquashade_View_3.png",
+      "images/products/20251104_130910_Aquashade_View_4.png",
+      "images/products/20251104_130854_Aquashade_View_1.png"
+    ],
+    "tags": [],
+    "categories": [
+      "Standard LEGO Beyblades"
+    ],
+    "variants": [
+      {
+        "id": "549f6ca3-9968-49a9-830d-e3715709299c",
+        "option_type": "addon",
+        "option_name": "LEGO Launcher Pro",
+        "option_value": "LEGO Launcher Pro",
+        "price": 1200,
+        "inventory": 10,
+        "sku": "SLB-001"
+      }
+    ],
+    "weight": 0.0,
+    "dimensions": {},
+    "created_at": "2025-10-31T14:49:13.072787",
+    "updated_at": "2025-11-04T15:02:19.978695"
+  },
+  {
+    "id": "bb6bf30b-b93c-4738-a4f0-97be645358f7",
+    "slug": "lego-beyblade-cyclone-fury",
+    "title": "Cyclone Fury",
+    "short_description": "Budget-friendly lineup of AP-Studios' special LEGO Beyblades",
+    "description": "",
+    "price": 815,
+    "compare_at_price": 1200,
+    "currency": "USD",
+    "status": "published",
+    "sku": "SLB-002",
+    "inventory": 0,
+    "inventory_policy": "continue",
+    "images": [
+      "images/products/20251104_132621_Cyclone_Fury_View_2.png",
+      "images/products/20251104_132621_Cyclone_Fury_View_3.png",
+      "images/products/20251104_132621_Cyclone_Fury_View_4.png",
+      "images/products/20251104_131033_Cyclone_Fury_View_2.png&#10;images/products/20251104_131033_Cyclone_Fury_View_3.png&#10;images/products/20251104_131033_Cyclone_Fury_View_4.png"
+    ],
+    "tags": [],
+    "categories": [],
+    "variants": [
+      {
+        "id": "0e1bb8fc-8eaf-47c0-965b-472a7d522904",
+        "option_type": "addon",
+        "option_name": "LEGO Launcher Pro",
+        "option_value": "LEGO Launcher Pro",
+        "price": 1200,
+        "inventory": 0,
+        "sku": "SLB-002"
+      }
+    ],
+    "weight": 0.0,
+    "dimensions": {},
+    "created_at": "2025-11-04T13:10:33.774673",
+    "updated_at": "2025-11-04T15:02:25.756537"
+  }
+]

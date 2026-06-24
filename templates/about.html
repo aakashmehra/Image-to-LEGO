@@ -1,0 +1,93 @@
+{% extends 'base.html' %}
+{% block content %}
+<section class="py-4">
+  <div class="mx-auto" style="max-width: 1200px;">
+    <!-- Hero Section -->
+    <div class="position-relative rounded-3 overflow-hidden mb-5" style="background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url('{{ url_for('static', filename='images/hero-image.png') }}'); background-size: cover; background-position: center; min-height: 350px;">
+      <div class="position-absolute top-50 start-50 translate-middle text-center text-white w-100 px-4" style="transform: translate(-50%, -50%);">
+        <h1 class="display-2 fw-black mb-3" style="letter-spacing: -0.02em;">Building Worlds Since 2014</h1>
+        <p class="lead mb-0 mx-auto" style="max-width: 700px;">Discover the story behind AP Studios and our passion for creating compelling LEGO stories that inspire builders and dreamers worldwide.</p>
+      </div>
+    </div>
+
+    <!-- Intro Text -->
+    <div class="text-center mb-5">
+      <p class="lead text-muted mx-auto" style="max-width: 900px;">AP Studios was born from a lifelong passion for LEGO and storytelling. Since 2014, we have been dedicated to producing high-quality content that inspires creativity and brings intricate brick-built worlds to life for our community of over 10,000 subscribers.</p>
+    </div>
+
+    <!-- Timeline Section -->
+    <div class="mb-5">
+      <h2 class="display-5 fw-black text-center mb-5" style="letter-spacing: -0.02em;">Our Journey Through Time</h2>
+      <div class="row g-4">
+        <!-- 2014 - The Foundation -->
+        <div class="col-12 col-md-10 offset-md-1">
+          <div class="d-flex align-items-start gap-4">
+            <div class="flex-shrink-0 d-flex flex-column align-items-center">
+              <div class="bg-primary bg-opacity-10 rounded-circle d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                <i class="bi bi-flag-fill text-primary fs-3"></i>
+              </div>
+              <div class="border-start border-3 border-primary" style="height: 100px; margin-top: -10px;"></div>
+            </div>
+            <div class="flex-grow-1 pb-5">
+              <h3 class="h4 fw-bold mb-2">2014 - The Foundation</h3>
+              <p class="text-muted mb-0">The first brick was laid. Driven by a love for stop-motion and LEGO, AP Studios was launched with a simple mission: to share unique stories with the world, one frame at a time.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2018 - Growth & Milestones -->
+        <div class="col-12 col-md-10 offset-md-1">
+          <div class="d-flex align-items-start gap-4">
+            <div class="flex-shrink-0 d-flex flex-column align-items-center">
+              <div class="border-start border-3 border-primary" style="height: 50px; margin-bottom: -10px;"></div>
+              <div class="bg-primary bg-opacity-10 rounded-circle d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                <i class="bi bi-trophy-fill text-primary fs-3"></i>
+              </div>
+              <div class="border-start border-3 border-primary" style="height: 100px; margin-top: -10px;"></div>
+            </div>
+            <div class="flex-grow-1 pb-5">
+              <h3 class="h4 fw-bold mb-2">2018 - Growth & Milestones</h3>
+              <p class="text-muted mb-0">Our community grew beyond imagination. We celebrated hitting 5,000 subscribers, upgraded our equipment, and took on our most ambitious animated project to date, pushing the boundaries of our creativity.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Today - The Vision -->
+        <div class="col-12 col-md-10 offset-md-1">
+          <div class="d-flex align-items-start gap-4">
+            <div class="flex-shrink-0 d-flex flex-column align-items-center">
+              <div class="border-start border-3 border-primary" style="height: 50px; margin-bottom: -10px;"></div>
+              <div class="bg-primary bg-opacity-10 rounded-circle d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                <i class="bi bi-rocket-takeoff-fill text-primary fs-3"></i>
+              </div>
+            </div>
+            <div class="flex-grow-1">
+              <h3 class="h4 fw-bold mb-2">Today - The Vision</h3>
+              <p class="text-muted mb-0">With over 10,000 subscribers, we're focused on telling bigger, bolder stories. Our vision is to continue inspiring the next generation of builders and filmmakers, expanding our universe with new series and collaborations.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Philosophy Section -->
+    <div class="card shadow-sm mb-5 border-0">
+      <div class="card-body p-5 text-center">
+        <h2 class="display-5 fw-black mb-4" style="letter-spacing: -0.02em;">Our Philosophy</h2>
+        <p class="lead text-muted mx-auto" style="max-width: 900px;">What makes AP Studios unique is our unwavering commitment to quality storytelling. We believe every brick has a story to tell. We blend meticulous animation techniques with engaging narratives and a deep respect for our community to create content that is not just watched, but felt.</p>
+      </div>
+    </div>
+
+    <!-- CTA Section -->
+    <div class="card shadow-sm mb-4 border-primary border-2 bg-primary bg-opacity-10">
+      <div class="card-body p-5 text-center">
+        <h3 class="h2 fw-bold mb-3">Join Our Creative Journey</h3>
+        <p class="lead text-muted mb-4 mx-auto" style="max-width: 700px;">Be part of our story. Subscribe to our YouTube channel to catch the latest videos, behind-the-scenes content, and join a community of passionate LEGO fans.</p>
+        <a href="https://www.youtube.com/apstudios" target="_blank" rel="noopener" class="btn btn-primary btn-lg">
+          <i class="bi bi-youtube me-2"></i>Watch Our Latest Video
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Image to LEGO</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#FF6FAF",
+              "secondary": "#7DC7FF",
+              "background-light": "#FAFAFC",
+              "background-dark": "#1a1a1c", /* Custom dark bg for better contrast */
+              "panel": "#F1F2F6",
+              "success": "#84D3A6",
+              "text-main": "#2B2B2B",
+              "text-subtle": "#888888",
+              "border-soft": "#F1F2F6"
+            },
+            fontFamily: {
+              "display": ["Inter", "sans-serif"]
+            },
+            borderRadius: {
+                "DEFAULT": "0.75rem",
+                "lg": "1rem",
+                "xl": "1.5rem",
+                "full": "9999px"
+            },
+          },
+        },
+      }
+    </script>
+<style type="text/tailwindcss">
+        .material-symbols-outlined {
+          font-variation-settings:
+          'FILL' 0,
+          'wght' 400,
+          'GRAD' 0,
+          'opsz' 24
+        }
+    </style>
+</head>
+<body class="bg-background-light font-display text-text-main">
+<div class="relative flex min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<div class="px-4 sm:px-8 md:px-20 lg:px-40 flex flex-1 justify-center py-5">
+<div class="layout-content-container flex flex-col max-w-[960px] flex-1 gap-10">
+<!-- TopNavBar -->
+<header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-border-soft px-4 sm:px-10 py-4">
+<div class="flex items-center gap-4 text-text-main">
+<div class="text-primary">
+<span class="material-symbols-outlined text-3xl">
+            deployed_code
+            </span>
+</div>
+<h2 class="text-text-main text-xl font-bold leading-tight tracking-[-0.015em]">Image to LEGO</h2>
+</div>
+</header>
+<main class="flex flex-col gap-16 md:gap-24 px-4">
+<!-- HeroSection -->
+<section class="@container">
+<div class="flex flex-col items-center gap-10 py-10">
+<div class="flex flex-col gap-6 w-full max-w-2xl">
+<div class="flex flex-col gap-4 text-center">
+<h1 class="text-text-main text-4xl font-black leading-tight tracking-[-0.033em] @[480px]:text-5xl">
+                        Turn your images into LEGO creations.
+                    </h1>
+<h2 class="text-text-subtle text-base font-normal leading-normal @[480px]:text-lg">
+                        Upload a photo and get a 3D-printable LEGO-style STL.
+                    </h2>
+</div>
+<button class="flex min-w-[84px] max-w-[480px] self-center w-fit cursor-pointer items-center justify-center gap-2 overflow-hidden rounded-xl h-12 px-6 bg-primary text-white text-base font-bold leading-normal tracking-[0.015em] hover:opacity-90 transition-opacity shadow-lg shadow-primary/20">
+<span class="material-symbols-outlined">upload_file</span>
+<span class="truncate">Upload Your Image</span>
+</button>
+</div>
+<div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl shadow-xl shadow-panel" data-alt="A colorful, abstract representation of a photo being transformed into LEGO blocks, with vibrant pinks, blues, and yellows." style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBsN8CS6stWMGslVSkCHR12Lru-Oi5h_v-XmMEZuhzT_HoulW1HJs6r0Y2rVxVvek7ZrjhwRehO9WWDA9uUQsVQ6-sooeMH2BXI-maf_GKmDontAb0FDjzifpvKrn4hI84O_Y5LTH9aSs7qa1bnJFSKk8NQnx2aG5EbWQm8sh1cLek0uZnmHGVAl9rJxABuQvQ59VPpktWutfVNOrkxLXcJ1MiFSHZhahedFaSptSrGzD7y5Qs4VNKapbCV35F22SXTgB_OKRSbCEg"); background-position: center 30%;'></div>
+</div>
+</section>
+<!-- FeatureSection -->
+<section class="flex flex-col gap-10 @container">
+<div class="flex flex-col gap-4 text-center">
+<h1 class="text-text-main tracking-light text-[32px] font-bold leading-tight @[480px]:text-4xl @[480px]:font-black @[480px]:tracking-[-0.033em] max-w-[720px] mx-auto">
+                How it works
+            </h1>
+<p class="text-text-subtle text-base font-normal leading-normal max-w-[720px] mx-auto">A simple, three-step process to bring your photos to life in LEGO form.</p>
+</div>
+<div class="grid grid-cols-[repeat(auto-fit,minmax(240px,1fr))] gap-6 p-0">
+<div class="flex flex-1 gap-4 rounded-xl border border-border-soft bg-white p-6 flex-col">
+<div class="text-primary">
+<span class="material-symbols-outlined text-3xl">image</span>
+</div>
+<div class="flex flex-col gap-1">
+<h2 class="text-text-main text-lg font-bold leading-tight">1. Upload Your Image</h2>
+<p class="text-text-subtle text-sm font-normal leading-normal">Select any photo from your device to begin the conversion process.</p>
+</div>
+</div>
+<div class="flex flex-1 gap-4 rounded-xl border border-border-soft bg-white p-6 flex-col">
+<div class="text-primary">
+<span class="material-symbols-outlined text-3xl">auto_awesome</span>
+</div>
+<div class="flex flex-col gap-1">
+<h2 class="text-text-main text-lg font-bold leading-tight">2. Generate Your LEGO Mesh</h2>
+<p class="text-text-subtle text-sm font-normal leading-normal">Our tool analyzes your image and converts it into a detailed 3D mesh.</p>
+</div>
+</div>
+<div class="flex flex-1 gap-4 rounded-xl border border-border-soft bg-white p-6 flex-col">
+<div class="text-primary">
+<span class="material-symbols-outlined text-3xl">download</span>
+</div>
+<div class="flex flex-col gap-1">
+<h2 class="text-text-main text-lg font-bold leading-tight">3. Download Your 3D Model</h2>
+<p class="text-text-subtle text-sm font-normal leading-normal">Get your 3D-printable STL file and building instructions instantly.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- EmptyState / Result Preview Area -->
+<section class="flex flex-col p-4">
+<div class="flex flex-col items-center gap-6 rounded-xl border-2 border-dashed border-panel px-6 py-14">
+<div class="flex max-w-[480px] flex-col items-center gap-2">
+<p class="text-text-main text-lg font-bold leading-tight tracking-[-0.015em] max-w-[480px] text-center">Your result will appear here</p>
+<p class="text-text-subtle text-sm font-normal leading-normal max-w-[480px] text-center">
+                    Once you upload an image and the conversion is complete, a preview and download links will be shown.
+                </p>
+</div>
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 bg-panel text-text-main text-sm font-bold leading-normal tracking-[0.015em] hover:bg-gray-200 transition-colors">
+<span class="truncate">Upload an Image</span>
+</button>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="flex flex-col gap-6 px-5 py-10 text-center @container bg-gradient-to-t from-panel/50 to-transparent mt-16">
+<div class="flex flex-wrap items-center justify-center gap-x-8 gap-y-4">
+<a class="text-secondary text-base font-medium leading-normal min-w-40 hover:underline" href="#">Credits</a>
+<a class="text-secondary text-base font-medium leading-normal min-w-40 hover:underline" href="#">Privacy Policy</a>
+</div>
+<div class="flex flex-wrap justify-center gap-4">
+<a href="#">
+<div class="text-text-subtle">
+<svg class="h-6 w-6" fill="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"></path></svg>
+</div>
+</a>
+</div>
+<p class="text-text-subtle text-sm font-normal leading-normal">© 2024 Image to LEGO. Created with love.</p>
+</footer>
+</div>
+</div>
+</div>
+</div>
+</body></html>

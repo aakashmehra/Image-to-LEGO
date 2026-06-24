@@ -1,0 +1,199 @@
+{% extends 'admin/base.html' %}
+{% block content %}
+<div>
+  <div class="d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-center mb-4 gap-3">
+    <h1 class="display-5 fw-bold text-dark mb-0">
+      {% if coupon %}Edit Coupon{% else %}Create Coupon{% endif %}
+    </h1>
+    <a href="{{ url_for('admin_coupon_list') }}" class="btn btn-outline-secondary w-100 w-md-auto">
+      <i class="bi bi-arrow-left me-2"></i>Back to Coupons
+    </a>
+  </div>
+
+  <div class="card shadow-soft border border-border rounded-3 p-4">
+    <form method="post" action="{% if coupon %}{{ url_for('admin_coupon_edit_post', coupon_id=coupon.id) }}{% else %}{{ url_for('admin_coupon_create_post') }}{% endif %}">
+      <div class="row g-3 g-md-4">
+        <div class="col-12 col-md-6">
+          <label for="code" class="form-label fw-semibold">Coupon Code <span class="text-danger">*</span></label>
+          <input type="text" class="form-control" id="code" name="code" value="{{ coupon.code if coupon else '' }}" required placeholder="SAVE20">
+        </div>
+        
+        <div class="col-12 col-md-6">
+          <label class="form-label fw-semibold d-block mb-2">Status</label>
+          <div class="toggle-switch">
+            <input type="radio" id="status_active" name="status" value="active" {% if not coupon or coupon.status == 'active' %}checked{% endif %}>
+            <label for="status_active" class="toggle-label active">Active</label>
+            <input type="radio" id="status_inactive" name="status" value="inactive" {% if coupon and coupon.status == 'inactive' %}checked{% endif %}>
+            <label for="status_inactive" class="toggle-label">Inactive</label>
+          </div>
+        </div>
+        
+        <div class="col-12">
+          <label for="description" class="form-label fw-semibold">Description</label>
+          <textarea class="form-control" id="description" name="description" rows="2" placeholder="Optional description">{{ coupon.description if coupon else '' }}</textarea>
+        </div>
+        
+        <div class="col-12">
+          <label class="form-label fw-semibold d-block mb-2">Discount Type</label>
+          <div class="toggle-switch">
+            <input type="radio" id="discount_percentage" name="discount_type" value="percentage" {% if not coupon or coupon.discount_type == 'percentage' %}checked{% endif %}>
+            <label for="discount_percentage" class="toggle-label active">Percentage (%)</label>
+            <input type="radio" id="discount_fixed" name="discount_type" value="fixed" {% if coupon and coupon.discount_type == 'fixed' %}checked{% endif %}>
+            <label for="discount_fixed" class="toggle-label">Fixed Amount ($)</label>
+          </div>
+        </div>
+        
+        <div class="col-12">
+          <label for="discount_value" class="form-label fw-semibold">Discount Value <span class="text-danger">*</span></label>
+          <input type="range" class="form-range mb-2" id="discount_value_range" 
+                 min="0" max="{% if coupon and coupon.discount_type == 'fixed' %}100{% else %}100{% endif %}" 
+                 step="{% if coupon and coupon.discount_type == 'fixed' %}1{% else %}1{% endif %}"
+                 value="{% if coupon %}{% if coupon.discount_type == 'fixed' %}{{ (coupon.discount_value / 100) | round(0) }}{% else %}{{ coupon.discount_value | round(0) }}{% endif %}{% else %}20{% endif %}">
+          <input type="number" step="0.01" class="form-control" id="discount_value" name="discount_value" 
+                 value="{% if coupon %}{% if coupon.discount_type == 'fixed' %}{{ (coupon.discount_value / 100) | round(2) }}{% else %}{{ coupon.discount_value }}{% endif %}{% else %}20{% endif %}" 
+                 required placeholder="20">
+          <small class="text-muted" id="discount_hint"></small>
+        </div>
+        
+        <div class="col-12 col-md-6" id="max_discount_container" style="display: {% if coupon and coupon.discount_type == 'percentage' or not coupon %}block{% else %}none{% endif %};">
+          <label for="maximum_discount" class="form-label fw-semibold">Maximum Discount ($)</label>
+          <input type="number" step="0.01" class="form-control" id="maximum_discount" name="maximum_discount" 
+                 value="{% if coupon %}{{ (coupon.maximum_discount / 100) | round(2) }}{% else %}0{% endif %}" 
+                 placeholder="0 (no limit)">
+          <small class="text-muted">Only for percentage discounts</small>
+        </div>
+        
+        <div class="col-12 col-md-6">
+          <label for="minimum_amount" class="form-label fw-semibold">Minimum Order Amount ($)</label>
+          <input type="number" step="0.01" class="form-control" id="minimum_amount" name="minimum_amount" 
+                 value="{% if coupon %}{{ (coupon.minimum_amount / 100) | round(2) }}{% else %}0{% endif %}" 
+                 placeholder="0 (no minimum)">
+        </div>
+        
+        <div class="col-12 col-md-6">
+          <label for="usage_limit" class="form-label fw-semibold">Usage Limit</label>
+          <input type="number" class="form-control" id="usage_limit" name="usage_limit" 
+                 value="{{ coupon.usage_limit if coupon else '0' }}" 
+                 placeholder="0 (unlimited)">
+          <small class="text-muted">0 = unlimited</small>
+        </div>
+        
+        <div class="col-12 col-md-6">
+          <label class="form-label fw-semibold d-block mb-2">Validity Period</label>
+          <div class="row g-2">
+            <div class="col-6">
+              <label for="valid_from" class="form-label small text-muted">From</label>
+              <input type="datetime-local" class="form-control form-control-sm" id="valid_from" name="valid_from" 
+                     value="{% if coupon and coupon.valid_from %}{{ coupon.valid_from[:16] }}{% endif %}">
+            </div>
+            <div class="col-6">
+              <label for="valid_until" class="form-label small text-muted">Until</label>
+              <input type="datetime-local" class="form-control form-control-sm" id="valid_until" name="valid_until" 
+                     value="{% if coupon and coupon.valid_until %}{{ coupon.valid_until[:16] }}{% endif %}">
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-12">
+          <div class="d-flex gap-2">
+            <button type="submit" class="btn btn-primary btn-lg px-4">
+              {% if coupon %}Update Coupon{% else %}Create Coupon{% endif %}
+            </button>
+            <a href="{{ url_for('admin_coupon_list') }}" class="btn btn-outline-secondary btn-lg px-4">Cancel</a>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+
+<style>
+.toggle-switch {
+  display: flex;
+  gap: 0.5rem;
+  background: #f5f5f5;
+  padding: 4px;
+  border-radius: 12px;
+  width: fit-content;
+}
+
+.toggle-switch input[type="radio"] {
+  display: none;
+}
+
+.toggle-label {
+  padding: 0.5rem 1.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-weight: 500;
+  background: transparent;
+  color: #6b7280;
+  border: 2px solid transparent;
+}
+
+.toggle-switch input[type="radio"]:checked + .toggle-label {
+  background: white;
+  color: #1a1a1a;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.toggle-switch input[type="radio"]:checked#status_active + .toggle-label {
+  background: #10b981;
+  color: white;
+}
+
+.toggle-switch input[type="radio"]:checked#status_inactive + .toggle-label {
+  background: #ef4444;
+  color: white;
+}
+</style>
+
+<script>
+// Sync range slider with number input
+const discountRange = document.getElementById('discount_value_range');
+const discountValue = document.getElementById('discount_value');
+const discountHint = document.getElementById('discount_hint');
+const discountTypeRadios = document.querySelectorAll('input[name="discount_type"]');
+const maxDiscountContainer = document.getElementById('max_discount_container');
+
+if (discountRange && discountValue) {
+  discountRange.addEventListener('input', function() {
+    discountValue.value = this.value;
+  });
+  
+  discountValue.addEventListener('input', function() {
+    discountRange.value = this.value;
+  });
+}
+
+// Update discount range max based on discount type
+function updateDiscountRange() {
+  const discountType = document.querySelector('input[name="discount_type"]:checked').value;
+  if (discountType === 'fixed') {
+    discountRange.max = 1000;
+    discountRange.step = 1;
+    discountHint.textContent = 'Enter discount amount in dollars';
+  } else {
+    discountRange.max = 100;
+    discountRange.step = 1;
+    discountHint.textContent = 'Enter discount percentage (0-100%)';
+  }
+  
+  // Show/hide max discount field
+  if (discountType === 'percentage') {
+    maxDiscountContainer.style.display = 'block';
+  } else {
+    maxDiscountContainer.style.display = 'none';
+  }
+}
+
+discountTypeRadios.forEach(radio => {
+  radio.addEventListener('change', updateDiscountRange);
+});
+
+// Initialize
+updateDiscountRange();
+</script>
+{% endblock %}
+

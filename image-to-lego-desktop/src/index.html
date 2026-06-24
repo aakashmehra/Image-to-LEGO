@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image to LEGO Converter</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              bg: '#0F1117',
+              surface: '#161B22',
+              card: '#1C2128',
+              border: '#30363D',
+              primary: '#3B82F6',
+              primaryHover: '#2563EB',
+              success: '#22C55E',
+              textMain: '#F8FAFC',
+              textSecondary: '#94A3B8',
+              danger: '#EF4444',
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            }
+          }
+        }
+      }
+    </script>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <style>
+      body {
+        background-color: #0F1117;
+        color: #F8FAFC;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      /* Custom Segmented Control styles */
+      .segmented-btn-active {
+        background-color: #1C2128;
+        border-color: #30363D;
+        color: #F8FAFC;
+      }
+      .segmented-btn-inactive {
+        color: #94A3B8;
+      }
+      .segmented-btn-inactive:hover {
+        color: #F8FAFC;
+      }
+      /* Custom scrollbar for technical logs */
+      ::-webkit-scrollbar {
+        width: 6px;
+        height: 6px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #161B22;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #30363D;
+        border-radius: 3px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #3B82F6/50;
+      }
+    </style>
+  </head>
+  <body class="min-h-screen flex flex-col items-center justify-start p-8 selection:bg-primary/20 selection:text-primary">
+    
+    <div class="w-full max-w-[1000px] flex flex-col space-y-8">
+      
+      <!-- Top Header -->
+      <header class="flex items-center gap-4 border-b border-border pb-6">
+        <!-- SVG Minimalist 2x2 Lego Brick Icon -->
+        <svg width="40" height="32" viewBox="0 0 40 32" fill="none" xmlns="http://www.w3.org/2000/svg" class="text-primary">
+          <rect x="2" y="8" width="36" height="22" rx="4" fill="currentColor" />
+          <!-- Studs -->
+          <rect x="8" y="2" width="10" height="6" rx="1.5" fill="currentColor" fill-opacity="0.8" />
+          <rect x="22" y="2" width="10" height="6" rx="1.5" fill="currentColor" fill-opacity="0.8" />
+        </svg>
+        <div class="text-left">
+          <h1 class="text-[32px] font-extrabold tracking-tight leading-none text-textMain">Image to LEGO</h1>
+          <p class="text-[15px] text-textSecondary mt-2">Convert images into printable LEGO-compatible STL models</p>
+        </div>
+      </header>
+
+      <!-- Main Columns Grid -->
+      <main class="grid grid-cols-1 md:grid-cols-12 gap-8 items-start">
+        
+        <!-- Left Column: Controls (5 cols) -->
+        <div class="md:col-span-5 flex flex-col space-y-6">
+          
+          <!-- Section 1: Upload Image -->
+          <div class="flex flex-col space-y-3">
+            <h2 class="text-[18px] font-bold text-textMain">Upload Image</h2>
+            <div id="dropzone" class="h-[220px] border-2 border-dashed border-border hover:border-primary/50 bg-surface rounded-[12px] p-6 text-center cursor-pointer transition-colors flex flex-col items-center justify-center group">
+              <i class="bi bi-file-earmark-image text-3xl text-textSecondary group-hover:text-primary transition-colors mb-3"></i>
+              <p id="file-name" class="text-[15px] font-medium text-textMain">Drag & drop image or click to browse</p>
+              <p id="file-path" class="text-[13px] text-textSecondary mt-1 truncate max-w-full px-2 font-mono">PNG, JPG, JPEG, or BMP</p>
+            </div>
+          </div>
+
+          <!-- Section 2: Configuration Options -->
+          <div class="flex flex-col space-y-5 bg-card border border-border p-5 rounded-[12px]">
+            <h2 class="text-[18px] font-bold text-textMain border-b border-border pb-2">Configuration</h2>
+            
+            <!-- Mode -->
+            <div class="flex flex-col space-y-2">
+              <label class="text-[13px] font-semibold text-textSecondary uppercase tracking-wider">Mode</label>
+              <div class="flex bg-surface p-1 rounded-lg border border-border">
+                <button id="mode-baseplate" class="flex-1 py-1.5 text-center text-[13px] font-semibold rounded-md transition-all segmented-btn-active" onclick="setMode('baseplate')">
+                  Baseplate
+                </button>
+                <button id="mode-brick" class="flex-1 py-1.5 text-center text-[13px] font-semibold rounded-md transition-all segmented-btn-inactive" onclick="setMode('brick')">
+                  Brick
+                </button>
+              </div>
+            </div>
+
+            <!-- Studs -->
+            <div class="flex flex-col space-y-2">
+              <label class="text-[13px] font-semibold text-textSecondary uppercase tracking-wider">Studs</label>
+              <div class="flex bg-surface p-1 rounded-lg border border-border">
+                <button id="studs-with" class="flex-1 py-1.5 text-center text-[13px] font-semibold rounded-md transition-all segmented-btn-active" onclick="setStuds('with')">
+                  With Studs
+                </button>
+                <button id="studs-none" class="flex-1 py-1.5 text-center text-[13px] font-semibold rounded-md transition-all segmented-btn-inactive" onclick="setStuds('none')">
+                  Flat Surface
+                </button>
+              </div>
+            </div>
+
+            <!-- Attachment -->
+            <div class="flex flex-col space-y-2">
+              <label class="text-[13px] font-semibold text-textSecondary uppercase tracking-wider">Attachment</label>
+              <div class="flex bg-surface p-1 rounded-lg border border-border">
+                <button id="ring-none" class="flex-1 py-1.5 text-center text-[13px] font-semibold rounded-md transition-all segmented-btn-active" onclick="setRing('none')">
+                  None
+                </button>
+                <button id="ring-add" class="flex-1 py-1.5 text-center text-[13px] font-semibold rounded-md transition-all segmented-btn-inactive" onclick="setRing('add')">
+                  Keyring
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Section 3: Generate Controls -->
+          <div class="flex flex-col space-y-3">
+            <button id="convert-btn" class="w-full bg-primary hover:bg-primaryHover text-textMain font-bold py-3 px-6 rounded-[10px] transition-colors flex items-center justify-center gap-2 text-[15px] disabled:opacity-40 disabled:cursor-not-allowed disabled:hover:bg-primary" disabled>
+              <i class="bi bi-play-fill text-lg"></i>
+              Generate STL
+            </button>
+            <button id="reset-btn" class="w-full bg-surface hover:bg-card text-textMain border border-border font-bold py-3 px-6 rounded-[10px] transition-colors flex items-center justify-center gap-2 text-[15px]" onclick="resetApp()">
+              <i class="bi bi-arrow-counterclockwise"></i>
+              Reset
+            </button>
+          </div>
+
+        </div>
+
+        <!-- Right Column: Preview & Output Details (7 cols) -->
+        <div class="md:col-span-7 flex flex-col space-y-6">
+          
+          <!-- Preview Section -->
+          <div class="flex flex-col space-y-3">
+            <h2 class="text-[18px] font-bold text-textMain">Preview</h2>
+            <div class="bg-card border border-border rounded-[12px] p-4 flex items-center justify-center min-h-[280px] relative overflow-hidden">
+              <!-- Technical Line-art Grid Placeholder -->
+              <div id="preview-placeholder" class="absolute inset-0 bg-surface/50 grid grid-cols-12 gap-0 border border-border/20 pointer-events-none opacity-30">
+                <!-- Javascript will populate custom grid lines here for aesthetic -->
+              </div>
+              
+              <!-- Placeholder Text -->
+              <div id="placeholder-text" class="relative z-10 flex flex-col items-center text-center p-6 text-textSecondary">
+                <i class="bi bi-bezier2 text-4xl mb-2 text-border"></i>
+                <span class="text-[15px]">No image selected for preview</span>
+              </div>
+              
+              <!-- Actual Loaded Image Preview -->
+              <img id="image-preview" class="hidden max-h-[300px] w-auto object-contain rounded-lg border border-border relative z-10" src="" alt="Loaded image preview" />
+            </div>
+          </div>
+
+          <!-- STL Information Panel -->
+          <div class="flex flex-col space-y-3">
+            <h2 class="text-[18px] font-bold text-textMain">STL Information</h2>
+            <div id="info-card" class="bg-card border border-border rounded-[12px] p-5 space-y-4">
+              
+              <!-- Status Banner -->
+              <div class="flex items-center gap-3">
+                <div id="status-spinner" class="hidden animate-spin rounded-full h-4 w-4 border-2 border-primary border-t-transparent"></div>
+                <div id="status-icon" class="text-textSecondary"><i class="bi bi-circle"></i></div>
+                <span id="status-message" class="text-[15px] font-medium text-textSecondary">System Idle. Waiting for image upload...</span>
+              </div>
+
+              <!-- Dimensions Header with Lock -->
+              <div class="flex items-center justify-between border-t border-border pt-4 px-1">
+                <span class="text-[13px] font-semibold text-textSecondary uppercase tracking-wider">Dimensions (mm)</span>
+                <button id="lock-proportions-btn" class="flex items-center gap-1.5 px-2 py-0.5 text-[12px] font-medium rounded-md border transition-all bg-[#1C2128] border-primary text-primary" onclick="toggleProportionsLock()">
+                  <i id="lock-icon" class="bi bi-link-45deg"></i>
+                  <span>Linked</span>
+                </button>
+              </div>
+
+              <!-- Dimensions list -->
+              <div class="grid grid-cols-3 gap-4">
+                <div class="bg-surface border border-border p-3 rounded-lg flex flex-col items-center">
+                  <label for="input-dim-x" class="text-[13px] font-semibold text-textSecondary uppercase tracking-wider">Width (X)</label>
+                  <input id="input-dim-x" type="number" step="0.01" min="0.1" class="w-full text-center bg-transparent border-b border-transparent hover:enabled:border-border/50 focus:border-primary/50 font-bold text-textMain mt-1 focus:ring-0 focus:outline-none text-[15px] transition-all [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none cursor-not-allowed enabled:cursor-text" disabled placeholder="-" />
+                </div>
+                <div class="bg-surface border border-border p-3 rounded-lg flex flex-col items-center">
+                  <label for="input-dim-y" class="text-[13px] font-semibold text-textSecondary uppercase tracking-wider">Height (Y)</label>
+                  <input id="input-dim-y" type="number" step="0.01" min="0.1" class="w-full text-center bg-transparent border-b border-transparent hover:enabled:border-border/50 focus:border-primary/50 font-bold text-textMain mt-1 focus:ring-0 focus:outline-none text-[15px] transition-all [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none cursor-not-allowed enabled:cursor-text" disabled placeholder="-" />
+                </div>
+                <div class="bg-surface border border-border p-3 rounded-lg flex flex-col items-center">
+                  <label for="input-dim-z" class="text-[13px] font-semibold text-textSecondary uppercase tracking-wider">Thickness (Z)</label>
+                  <input id="input-dim-z" type="number" step="0.01" min="0.1" class="w-full text-center bg-transparent border-b border-transparent hover:enabled:border-border/50 focus:border-primary/50 font-bold text-textMain mt-1 focus:ring-0 focus:outline-none text-[15px] transition-all [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none cursor-not-allowed enabled:cursor-text" disabled placeholder="-" />
+                </div>
+              </div>
+
+              <!-- Calculated stats list -->
+              <div class="grid grid-cols-2 gap-4 border-t border-border pt-4 text-[13px] text-textSecondary">
+                <div class="flex justify-between py-1 border-b border-border/40">
+                  <span>Est. Stud Grid:</span>
+                  <span id="stat-stud-grid" class="font-semibold text-textMain">-</span>
+                </div>
+                <div class="flex justify-between py-1 border-b border-border/40">
+                  <span>Standard Pitch:</span>
+                  <span class="font-semibold text-textMain">8.00 mm</span>
+                </div>
+                <div class="flex justify-between py-1">
+                  <span>Est. Stud Count:</span>
+                  <span id="stat-stud-count" class="font-semibold text-textMain">-</span>
+                </div>
+                <div class="flex justify-between py-1">
+                  <span>Z Alignment:</span>
+                  <span class="font-semibold text-textMain">Center Ground</span>
+                </div>
+              </div>
+
+              <!-- Raw execution logs (toggled) -->
+              <pre id="status-log" class="hidden text-[11px] font-mono text-textSecondary bg-black/40 p-3 rounded-lg overflow-x-auto max-h-32 border border-border leading-relaxed"></pre>
+            </div>
+          </div>
+
+          <!-- Recent Exports Panel -->
+          <div class="flex flex-col space-y-3">
+            <h2 class="text-[18px] font-bold text-textMain">Recent Exports</h2>
+            <div class="bg-card border border-border rounded-[12px] p-4">
+              <div id="recent-exports-list" class="flex flex-col space-y-2">
+                <!-- Populated dynamically via localStorage -->
+                <div class="text-[13px] text-textSecondary italic text-center py-4">No recent exports found.</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </main>
+      
+    </div>
+
+    <!-- Script Entry -->
+    <script src="main.js"></script>
+  </body>
+</html>

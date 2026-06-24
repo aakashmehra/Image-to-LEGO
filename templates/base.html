@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AP Studios - LEGO YouTube Channel</title>
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='images/ap_studios_logo.ico') }}">
+    <!-- Bootstrap (optional, allowed) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Bootstrap Icons for simple symbols -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Google Fonts - Plus Jakarta Sans & Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Custom styles -->
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+  </head>
+  <body class="bg-light text-body">
+    <nav class="navbar navbar-expand-lg fixed-top border-bottom bg-card-overlay backdrop-blur-lg" style="z-index: 50;">
+      <div class="container">
+        <a class="navbar-brand fw-bold d-flex align-items-center gap-2" href="{{ url_for('index') }}">
+          <img src="{{ url_for('static', filename='images/ap_studios_logo.png') }}" alt="AP Studios" style="width: 40px; height: 40px; object-fit: contain;">
+          <span class="text-dark" style="font-size: 1.25rem;">AP Studios</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto align-items-center gap-1">
+            <li class="nav-item">
+              <a class="nav-link text-muted fw-medium px-3 py-2 rounded hover-text-dark transition-colors hover-bg-secondary" href="{{ url_for('index') }}#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-muted fw-medium px-3 py-2 rounded hover-text-dark transition-colors hover-bg-secondary" href="{{ url_for('index') }}#story">Our Story</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-muted fw-medium px-3 py-2 rounded hover-text-dark transition-colors hover-bg-secondary" href="{{ url_for('index') }}#content">Content</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-muted fw-medium px-3 py-2 rounded hover-text-dark transition-colors hover-bg-secondary" href="{{ url_for('index') }}#community">Community</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-muted fw-medium px-3 py-2 rounded hover-text-dark transition-colors hover-bg-secondary" href="{{ url_for('convert') }}">Image to LEGO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-muted fw-medium px-3 py-2 rounded hover-text-dark transition-colors hover-bg-secondary" href="{{ url_for('shop') }}">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-muted fw-medium px-3 py-2 rounded hover-text-dark transition-colors hover-bg-secondary position-relative" href="{{ url_for('cart_view') }}">
+                <i class="bi bi-cart"></i> Cart
+                {% if cart_count and cart_count > 0 %}
+                  <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-primary" style="font-size: 0.7rem; padding: 2px 6px;">{{ cart_count }}</span>
+                {% endif %}
+              </a>
+            </li>
+            <li class="nav-item ms-2">
+              <a href="https://www.youtube.com/apstudios" target="_blank" rel="noopener" class="btn btn-primary btn-sm">
+                Subscribe
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+          <div class="container">
+            {% for category, message in messages %}
+              <div class="alert alert-{{ 'success' if category == 'success' else 'danger' if category == 'error' else 'warning' }} alert-dismissible fade show mt-5" role="alert">
+                {{ message }}
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+              </div>
+            {% endfor %}
+          </div>
+        {% endif %}
+      {% endwith %}
+      {% block content %}{% endblock %}
+    </main>
+
+    <footer class="border-top py-5 bg-card">
+      <div class="container">
+        <div class="row g-4 mb-4">
+          <div class="col-md-4">
+            <div class="d-flex align-items-center gap-2 mb-3">
+              <img src="{{ url_for('static', filename='images/ap_studios_logo.png') }}" alt="AP Studios" style="width: 40px; height: 40px; object-fit: contain;">
+              <span class="text-xl fw-bold text-dark">AP Studios</span>
+            </div>
+            <p class="text-muted small mb-0">Creating original LEGO content since 2014. Building dreams, one brick at a time.</p>
+          </div>
+          <div class="col-6 col-md-4">
+            <h3 class="fw-semibold text-dark mb-3">Quick Links</h3>
+            <ul class="list-unstyled d-flex flex-column gap-2">
+              <li><a href="{{ url_for('index') }}#home" class="text-muted hover-text-primary transition-colors small text-decoration-none">Home</a></li>
+              <li><a href="{{ url_for('index') }}#story" class="text-muted hover-text-primary transition-colors small text-decoration-none">Our Story</a></li>
+              <li><a href="{{ url_for('index') }}#content" class="text-muted hover-text-primary transition-colors small text-decoration-none">Content</a></li>
+              <li><a href="{{ url_for('index') }}#community" class="text-muted hover-text-primary transition-colors small text-decoration-none">Community</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md-4">
+            <h3 class="fw-semibold text-dark mb-3">Follow Us</h3>
+            <div class="d-flex gap-3">
+              <a href="https://www.youtube.com/apstudios" target="_blank" rel="noopener" class="w-10 h-10 bg-muted rounded-lg d-flex align-items-center justify-content-center text-muted hover-bg-primary hover-text-white transition-colors">
+                <i class="bi bi-youtube"></i>
+              </a>
+              <a href="https://instagram.com/legoapstudios" target="_blank" rel="noopener" class="w-10 h-10 bg-muted rounded-lg d-flex align-items-center justify-content-center text-muted hover-bg-primary hover-text-white transition-colors">
+                <i class="bi bi-instagram"></i>
+              </a>
+              <a href="mailto:apstudios1131@gmail.com" target="_blank" rel="noopener" class="w-10 h-10 bg-muted rounded-lg d-flex align-items-center justify-content-center text-muted hover-bg-primary hover-text-white transition-colors">
+                <i class="bi bi-envelope-fill"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="pt-4 border-top border-border d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+          <p class="text-muted small mb-0">© 2025 AP Studios. All rights reserved.</p>
+          <div class="d-flex align-items-center gap-2 text-muted small">
+            <span>Made with</span>
+            <i class="bi bi-heart-fill text-accent" id="heartEasterEgg" style="transition: transform 0.2s;"></i>
+            <span>for the LEGO community</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+    <script>
+      // Easter egg: Tap heart 15 times to open admin page
+      let heartTapCount = 0;
+      let heartTapTimeout;
+      
+      document.getElementById('heartEasterEgg').addEventListener('click', function() {
+        heartTapCount++;
+        
+        // Reset count after 5 seconds of no taps
+        clearTimeout(heartTapTimeout);
+        heartTapTimeout = setTimeout(() => {
+          heartTapCount = 0;
+        }, 5000);
+        
+        // Visual feedback on tap
+        this.style.transform = 'scale(1.3)';
+        setTimeout(() => {
+          this.style.transform = 'scale(1)';
+        }, 200);
+        
+        // Check if 15 taps reached
+        if (heartTapCount >= 15) {
+          // Redirect to admin login
+          window.location.href = '/admin/login';
+        }
+      });
+    </script>
+    <style>
+      /* Mobile Responsive Styles */
+      @media (max-width: 768px) {
+        .navbar-brand span {
+          font-size: 1.1rem !important;
+        }
+        
+        .navbar-brand img {
+          width: 32px !important;
+          height: 32px !important;
+        }
+        
+        .nav-link {
+          padding: 0.5rem 0.75rem !important;
+          font-size: 0.9rem;
+        }
+        
+        .btn-sm {
+          padding: 0.375rem 0.75rem;
+          font-size: 0.875rem;
+        }
+        
+        .container {
+          padding-left: 1rem;
+          padding-right: 1rem;
+        }
+        
+        footer .row {
+          text-align: left;
+        }
+        
+        footer .col-md-4:first-child {
+          margin-bottom: 2rem;
+          text-align: center;
+        }
+        
+        footer .col-6 {
+          text-align: left;
+        }
+        
+        footer .col-6 h3 {
+          font-size: 1rem;
+          margin-bottom: 1rem;
+        }
+        
+        footer .col-6 ul {
+          gap: 0.5rem;
+        }
+        
+        footer .col-6 ul li {
+          font-size: 0.875rem;
+        }
+        
+        footer .d-flex.gap-3 {
+          justify-content: flex-start;
+          flex-wrap: wrap;
+        }
+      }
+      
+      @media (max-width: 576px) {
+        .navbar-brand span {
+          display: none;
+        }
+        
+        .nav-link {
+          font-size: 0.875rem;
+          padding: 0.5rem !important;
+        }
+        
+        .badge {
+          font-size: 0.65rem;
+          padding: 1px 4px;
+        }
+      }
+    </style>
+  </body>
+  </html>
+
+

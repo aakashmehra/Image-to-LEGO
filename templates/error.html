@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="alert alert-danger" role="alert">
+  <h4 class="alert-heading">Something went wrong</h4>
+  <p class="mb-0">{{ message }}</p>
+  <hr>
+  <a href="{{ url_for('index') }}" class="btn btn-outline-danger">Back to upload</a>
+{% endblock %}
+
+

@@ -1,0 +1,164 @@
+{% extends 'admin/base.html' %}
+{% block content %}
+<div class="admin-dashboard">
+  <h1 class="display-5 fw-bold text-dark mb-4">Dashboard</h1>
+  
+  <!-- Stats Cards -->
+  <div class="row g-3 g-md-4 mb-4">
+    <div class="col-6 col-md-3">
+      <div class="card shadow-soft border border-border rounded-3 p-4">
+        <div class="d-flex align-items-center justify-content-between">
+          <div>
+            <p class="text-muted small mb-1">Total Visits</p>
+            <h2 class="mb-0 fw-bold">{{ analytics.total_visits }}</h2>
+          </div>
+          <div class="bg-primary-icon rounded-circle p-3">
+            <i class="bi bi-eye text-primary fs-4"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-6 col-md-3">
+      <div class="card shadow-soft border border-border rounded-3 p-4">
+        <div class="d-flex align-items-center justify-content-between">
+          <div>
+            <p class="text-muted small mb-1">Unique Countries</p>
+            <h2 class="mb-0 fw-bold">{{ analytics.unique_countries }}</h2>
+          </div>
+          <div class="bg-primary-icon rounded-circle p-3">
+            <i class="bi bi-globe text-primary fs-4"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-6 col-md-3">
+      <div class="card shadow-soft border border-border rounded-3 p-4">
+        <div class="d-flex align-items-center justify-content-between">
+          <div>
+            <p class="text-muted small mb-1">Total Products</p>
+            <h2 class="mb-0 fw-bold">{{ product_count }}</h2>
+          </div>
+          <div class="bg-primary-icon rounded-circle p-3">
+            <i class="bi bi-box-seam text-primary fs-4"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-6 col-md-3">
+      <div class="card shadow-soft border border-border rounded-3 p-4">
+        <div class="d-flex align-items-center justify-content-between">
+          <div>
+            <p class="text-muted small mb-1">Active Coupons</p>
+            <h2 class="mb-0 fw-bold">{{ coupon_count }}</h2>
+          </div>
+          <div class="bg-primary-icon rounded-circle p-3">
+            <i class="bi bi-ticket-perforated text-primary fs-4"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="row g-3 g-md-4">
+    <!-- Top Countries -->
+    <div class="col-12 col-md-6">
+      <div class="card shadow-soft border border-border rounded-3">
+        <div class="card-header bg-white border-bottom">
+          <h3 class="h5 fw-bold mb-0">Top Countries</h3>
+        </div>
+        <div class="card-body">
+          {% if analytics.top_countries %}
+            <div class="table-responsive">
+              <table class="table table-sm mb-0">
+                <thead>
+                  <tr>
+                    <th>Country</th>
+                    <th class="text-end">Visits</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {% for country in analytics.top_countries %}
+                  <tr>
+                    <td>{{ country.country }}</td>
+                    <td class="text-end">{{ country.visits }}</td>
+                  </tr>
+                  {% endfor %}
+                </tbody>
+              </table>
+            </div>
+          {% else %}
+            <p class="text-muted mb-0">No data available</p>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+    
+    <!-- Top Pages -->
+    <div class="col-12 col-md-6">
+      <div class="card shadow-soft border border-border rounded-3">
+        <div class="card-header bg-white border-bottom">
+          <h3 class="h5 fw-bold mb-0">Top Pages</h3>
+        </div>
+        <div class="card-body">
+          {% if analytics.top_pages %}
+            <div class="table-responsive">
+              <table class="table table-sm mb-0">
+                <thead>
+                  <tr>
+                    <th>Page</th>
+                    <th class="text-end">Visits</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {% for page in analytics.top_pages %}
+                  <tr>
+                    <td>{{ page.page }}</td>
+                    <td class="text-end">{{ page.visits }}</td>
+                  </tr>
+                  {% endfor %}
+                </tbody>
+              </table>
+            </div>
+          {% else %}
+            <p class="text-muted mb-0">No data available</p>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+    
+    <!-- Recent Daily Stats -->
+    <div class="col-12">
+      <div class="card shadow-soft border border-border rounded-3">
+        <div class="card-header bg-white border-bottom">
+          <h3 class="h5 fw-bold mb-0">Recent Daily Visits</h3>
+        </div>
+        <div class="card-body">
+          {% if analytics.recent_days %}
+            <div class="table-responsive">
+              <table class="table table-sm mb-0">
+                <thead>
+                  <tr>
+                    <th>Date</th>
+                    <th class="text-end">Visits</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {% for day in analytics.recent_days %}
+                  <tr>
+                    <td>{{ day.date }}</td>
+                    <td class="text-end">{{ day.visits }}</td>
+                  </tr>
+                  {% endfor %}
+                </tbody>
+              </table>
+            </div>
+          {% else %}
+            <p class="text-muted mb-0">No data available</p>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
+

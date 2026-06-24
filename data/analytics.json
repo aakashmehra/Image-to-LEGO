@@ -1,0 +1,2109 @@
+{
+  "visits": [
+    {
+      "timestamp": "2025-11-04T13:09:12.116720",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "US",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/admin/products"
+    },
+    {
+      "timestamp": "2025-11-04T13:09:12.632021",
+      "date": "2025-11-04",
+      "page": "/product/lego",
+      "country": "US",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop"
+    },
+    {
+      "timestamp": "2025-11-04T13:09:24.530240",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "US",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/product/lego"
+    },
+    {
+      "timestamp": "2025-11-04T13:10:46.034230",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "US",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/admin/coupons"
+    },
+    {
+      "timestamp": "2025-11-04T13:10:51.051653",
+      "date": "2025-11-04",
+      "page": "/product/lego",
+      "country": "US",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop"
+    },
+    {
+      "timestamp": "2025-11-04T13:12:16.565710",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "US",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/admin/coupons"
+    },
+    {
+      "timestamp": "2025-11-04T13:12:20.751155",
+      "date": "2025-11-04",
+      "page": "/",
+      "country": "US",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/admin/coupons"
+    },
+    {
+      "timestamp": "2025-11-04T13:12:40.720603",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "US",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/admin"
+    },
+    {
+      "timestamp": "2025-11-04T13:12:42.212186",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "US",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/admin"
+    },
+    {
+      "timestamp": "2025-11-04T13:12:42.822910",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "US",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/admin"
+    },
+    {
+      "timestamp": "2025-11-04T13:12:43.175446",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "US",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/admin"
+    },
+    {
+      "timestamp": "2025-11-04T13:18:23.358185",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "US",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/admin/products"
+    },
+    {
+      "timestamp": "2025-11-04T13:19:22.944693",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "US",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/admin/products"
+    },
+    {
+      "timestamp": "2025-11-04T13:19:24.606973",
+      "date": "2025-11-04",
+      "page": "/product/lego",
+      "country": "US",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop"
+    },
+    {
+      "timestamp": "2025-11-04T13:19:29.636718",
+      "date": "2025-11-04",
+      "page": "/product/lego",
+      "country": "US",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop"
+    },
+    {
+      "timestamp": "2025-11-04T13:19:30.201210",
+      "date": "2025-11-04",
+      "page": "/product/lego",
+      "country": "US",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop"
+    },
+    {
+      "timestamp": "2025-11-04T13:19:44.954610",
+      "date": "2025-11-04",
+      "page": "/product/lego",
+      "country": "US",
+      "ip_address": "",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop"
+    },
+    {
+      "timestamp": "2025-11-04T13:19:51.919680",
+      "date": "2025-11-04",
+      "page": "/product/lego",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop"
+    },
+    {
+      "timestamp": "2025-11-04T13:19:52.314654",
+      "date": "2025-11-04",
+      "page": "/product/lego",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop"
+    },
+    {
+      "timestamp": "2025-11-04T13:21:09.070606",
+      "date": "2025-11-04",
+      "page": "/product/lego",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop"
+    },
+    {
+      "timestamp": "2025-11-04T13:21:15.558546",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/product/lego"
+    },
+    {
+      "timestamp": "2025-11-04T13:22:38.518592",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/admin/products/3c1687f7-4288-4e17-9f53-78ec038f3709/edit"
+    },
+    {
+      "timestamp": "2025-11-04T13:22:39.422154",
+      "date": "2025-11-04",
+      "page": "/product/lego",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop"
+    },
+    {
+      "timestamp": "2025-11-04T13:27:05.499904",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/admin/products"
+    },
+    {
+      "timestamp": "2025-11-04T13:27:09.272505",
+      "date": "2025-11-04",
+      "page": "/product/lego-beyblade-aquashade",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop"
+    },
+    {
+      "timestamp": "2025-11-04T13:31:42.031401",
+      "date": "2025-11-04",
+      "page": "/product/lego-beyblade-aquashade",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop"
+    },
+    {
+      "timestamp": "2025-11-04T13:33:10.616589",
+      "date": "2025-11-04",
+      "page": "/product/lego-beyblade-aquashade",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop"
+    },
+    {
+      "timestamp": "2025-11-04T13:34:03.045531",
+      "date": "2025-11-04",
+      "page": "/product/lego-beyblade-aquashade",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop"
+    },
+    {
+      "timestamp": "2025-11-04T13:34:10.746175",
+      "date": "2025-11-04",
+      "page": "/product/lego-beyblade-aquashade",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop"
+    },
+    {
+      "timestamp": "2025-11-04T13:34:11.260424",
+      "date": "2025-11-04",
+      "page": "/product/lego-beyblade-aquashade",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop"
+    },
+    {
+      "timestamp": "2025-11-04T13:34:11.409110",
+      "date": "2025-11-04",
+      "page": "/product/lego-beyblade-aquashade",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop"
+    },
+    {
+      "timestamp": "2025-11-04T13:34:11.570220",
+      "date": "2025-11-04",
+      "page": "/product/lego-beyblade-aquashade",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop"
+    },
+    {
+      "timestamp": "2025-11-04T13:34:11.717155",
+      "date": "2025-11-04",
+      "page": "/product/lego-beyblade-aquashade",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop"
+    },
+    {
+      "timestamp": "2025-11-04T13:34:49.067182",
+      "date": "2025-11-04",
+      "page": "/product/lego-beyblade-aquashade",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Mobile Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop"
+    },
+    {
+      "timestamp": "2025-11-04T13:36:26.578624",
+      "date": "2025-11-04",
+      "page": "/product/lego-beyblade-aquashade",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Mobile Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop"
+    },
+    {
+      "timestamp": "2025-11-04T13:36:43.748679",
+      "date": "2025-11-04",
+      "page": "/product/lego-beyblade-aquashade",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop"
+    },
+    {
+      "timestamp": "2025-11-04T13:36:50.005929",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/product/lego-beyblade-aquashade"
+    },
+    {
+      "timestamp": "2025-11-04T13:36:52.529299",
+      "date": "2025-11-04",
+      "page": "/product/lego-beyblade-cyclone-fury",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop"
+    },
+    {
+      "timestamp": "2025-11-04T13:36:58.998253",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/product/lego-beyblade-cyclone-fury"
+    },
+    {
+      "timestamp": "2025-11-04T13:37:02.750435",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop"
+    },
+    {
+      "timestamp": "2025-11-04T13:37:14.971132",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop?min_price=&max_price=&category=Standard+LEGO+Beyblades"
+    },
+    {
+      "timestamp": "2025-11-04T13:37:15.811930",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop"
+    },
+    {
+      "timestamp": "2025-11-04T13:37:30.409871",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop"
+    },
+    {
+      "timestamp": "2025-11-04T13:37:31.214501",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop"
+    },
+    {
+      "timestamp": "2025-11-04T13:37:31.615657",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop"
+    },
+    {
+      "timestamp": "2025-11-04T13:37:31.756413",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop"
+    },
+    {
+      "timestamp": "2025-11-04T13:37:39.971016",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/admin/products"
+    },
+    {
+      "timestamp": "2025-11-04T13:37:40.585812",
+      "date": "2025-11-04",
+      "page": "/product/lego-beyblade-aquashade",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop"
+    },
+    {
+      "timestamp": "2025-11-04T13:41:04.495659",
+      "date": "2025-11-04",
+      "page": "/product/lego-beyblade-aquashade",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop"
+    },
+    {
+      "timestamp": "2025-11-04T13:41:05.108117",
+      "date": "2025-11-04",
+      "page": "/product/lego-beyblade-aquashade",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop"
+    },
+    {
+      "timestamp": "2025-11-04T13:41:05.241062",
+      "date": "2025-11-04",
+      "page": "/product/lego-beyblade-aquashade",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop"
+    },
+    {
+      "timestamp": "2025-11-04T13:41:05.386556",
+      "date": "2025-11-04",
+      "page": "/product/lego-beyblade-aquashade",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop"
+    },
+    {
+      "timestamp": "2025-11-04T13:41:05.520794",
+      "date": "2025-11-04",
+      "page": "/product/lego-beyblade-aquashade",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop"
+    },
+    {
+      "timestamp": "2025-11-04T13:41:45.287263",
+      "date": "2025-11-04",
+      "page": "/product/lego-beyblade-aquashade",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop"
+    },
+    {
+      "timestamp": "2025-11-04T13:44:04.689941",
+      "date": "2025-11-04",
+      "page": "/product/lego-beyblade-aquashade",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Mobile Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop"
+    },
+    {
+      "timestamp": "2025-11-04T13:45:44.095184",
+      "date": "2025-11-04",
+      "page": "/product/lego-beyblade-aquashade",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop"
+    },
+    {
+      "timestamp": "2025-11-04T13:46:37.746709",
+      "date": "2025-11-04",
+      "page": "/product/lego-beyblade-aquashade",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop"
+    },
+    {
+      "timestamp": "2025-11-04T13:47:08.106834",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/product/lego-beyblade-aquashade"
+    },
+    {
+      "timestamp": "2025-11-04T13:52:26.783065",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/product/lego-beyblade-aquashade"
+    },
+    {
+      "timestamp": "2025-11-04T15:02:27.630927",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/admin/products"
+    },
+    {
+      "timestamp": "2025-11-04T15:02:28.347837",
+      "date": "2025-11-04",
+      "page": "/product/lego-beyblade-aquashade",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop"
+    },
+    {
+      "timestamp": "2025-11-04T15:05:06.589914",
+      "date": "2025-11-04",
+      "page": "/product/lego-beyblade-aquashade",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop"
+    },
+    {
+      "timestamp": "2025-11-04T15:05:17.299230",
+      "date": "2025-11-04",
+      "page": "/product/lego-beyblade-aquashade",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop"
+    },
+    {
+      "timestamp": "2025-11-04T15:05:18.001440",
+      "date": "2025-11-04",
+      "page": "/product/lego-beyblade-aquashade",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop"
+    },
+    {
+      "timestamp": "2025-11-04T15:05:21.003977",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/product/lego-beyblade-aquashade"
+    },
+    {
+      "timestamp": "2025-11-04T15:05:22.566672",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop"
+    },
+    {
+      "timestamp": "2025-11-04T15:05:24.429185",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop?category=Standard+LEGO+Beyblades&color=&size="
+    },
+    {
+      "timestamp": "2025-11-04T15:06:58.785578",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop?category=Standard+LEGO+Beyblades&color=&size="
+    },
+    {
+      "timestamp": "2025-11-04T15:07:05.298517",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop?color=&size="
+    },
+    {
+      "timestamp": "2025-11-04T15:07:07.205191",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop?color=&size="
+    },
+    {
+      "timestamp": "2025-11-04T15:07:07.699045",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop?color=&size="
+    },
+    {
+      "timestamp": "2025-11-04T15:07:07.973447",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop?color=&size="
+    },
+    {
+      "timestamp": "2025-11-04T15:07:08.119948",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop?color=&size="
+    },
+    {
+      "timestamp": "2025-11-04T15:07:10.977857",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop?color=&size="
+    },
+    {
+      "timestamp": "2025-11-04T15:07:11.347261",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop?color=&size="
+    },
+    {
+      "timestamp": "2025-11-04T15:07:11.484013",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop?color=&size="
+    },
+    {
+      "timestamp": "2025-11-04T15:07:11.644603",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop?color=&size="
+    },
+    {
+      "timestamp": "2025-11-04T15:07:17.178596",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop"
+    },
+    {
+      "timestamp": "2025-11-04T15:07:18.126273",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop?category=Standard+LEGO+Beyblades&color=&size="
+    },
+    {
+      "timestamp": "2025-11-04T15:07:18.714090",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop?color=&size="
+    },
+    {
+      "timestamp": "2025-11-04T15:07:21.502343",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop?category=Standard+LEGO+Beyblades&color=&size="
+    },
+    {
+      "timestamp": "2025-11-04T15:07:23.532115",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop?category=Standard+LEGO+Beyblades&min_price=&max_price="
+    },
+    {
+      "timestamp": "2025-11-04T15:07:26.549605",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop?color=&size="
+    },
+    {
+      "timestamp": "2025-11-04T15:07:31.828962",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop?min_price=&max_price="
+    },
+    {
+      "timestamp": "2025-11-04T15:07:33.976610",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop?category=Standard+LEGO+Beyblades&color=&size="
+    },
+    {
+      "timestamp": "2025-11-04T15:07:39.824190",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop?category=Standard+LEGO+Beyblades&color=&size="
+    },
+    {
+      "timestamp": "2025-11-04T15:07:40.482526",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop?category=Standard+LEGO+Beyblades&color=&size="
+    },
+    {
+      "timestamp": "2025-11-04T15:09:08.885828",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop?color=&size="
+    },
+    {
+      "timestamp": "2025-11-04T15:09:09.538199",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop?category=Standard+LEGO+Beyblades&color=&size="
+    },
+    {
+      "timestamp": "2025-11-04T15:09:14.422932",
+      "date": "2025-11-04",
+      "page": "/",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop?color=&size="
+    },
+    {
+      "timestamp": "2025-11-04T15:09:22.208127",
+      "date": "2025-11-04",
+      "page": "/convert",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/"
+    },
+    {
+      "timestamp": "2025-11-04T15:09:29.521133",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/convert"
+    },
+    {
+      "timestamp": "2025-11-04T15:09:32.658345",
+      "date": "2025-11-04",
+      "page": "/product/lego-beyblade-aquashade",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop"
+    },
+    {
+      "timestamp": "2025-11-04T15:10:27.411592",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/product/lego-beyblade-aquashade"
+    },
+    {
+      "timestamp": "2025-11-04T15:17:35.360573",
+      "date": "2025-11-04",
+      "page": "/",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/admin"
+    },
+    {
+      "timestamp": "2025-11-04T15:17:36.490675",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/"
+    },
+    {
+      "timestamp": "2025-11-04T15:18:01.141073",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/admin"
+    },
+    {
+      "timestamp": "2025-11-04T15:29:42.272969",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/admin/coupons"
+    },
+    {
+      "timestamp": "2025-11-04T15:29:45.582286",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop"
+    },
+    {
+      "timestamp": "2025-11-04T15:29:46.160247",
+      "date": "2025-11-04",
+      "page": "/",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop?category=Standard+LEGO+Beyblades&color=&size="
+    },
+    {
+      "timestamp": "2025-11-04T15:29:54.071780",
+      "date": "2025-11-04",
+      "page": "/",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop?category=Standard+LEGO+Beyblades&color=&size="
+    },
+    {
+      "timestamp": "2025-11-04T15:30:03.909758",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/"
+    },
+    {
+      "timestamp": "2025-11-04T15:30:04.508437",
+      "date": "2025-11-04",
+      "page": "/convert",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop"
+    },
+    {
+      "timestamp": "2025-11-04T15:31:06.195044",
+      "date": "2025-11-04",
+      "page": "/",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": ""
+    },
+    {
+      "timestamp": "2025-11-04T15:31:20.486137",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1",
+      "referrer": "http://192.168.0.73:5230/"
+    },
+    {
+      "timestamp": "2025-11-04T15:37:47.118615",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1",
+      "referrer": "http://192.168.0.73:5230/"
+    },
+    {
+      "timestamp": "2025-11-04T15:43:32.673448",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1",
+      "referrer": "http://192.168.0.73:5230/"
+    },
+    {
+      "timestamp": "2025-11-04T15:44:11.833998",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1",
+      "referrer": "http://192.168.0.73:5230/"
+    },
+    {
+      "timestamp": "2025-11-04T15:46:15.097104",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1",
+      "referrer": "http://192.168.0.73:5230/"
+    },
+    {
+      "timestamp": "2025-11-04T15:46:23.963827",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1",
+      "referrer": "http://192.168.0.73:5230/"
+    },
+    {
+      "timestamp": "2025-11-04T15:46:36.021189",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1",
+      "referrer": "http://192.168.0.73:5230/shop"
+    },
+    {
+      "timestamp": "2025-11-04T15:46:37.139680",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1",
+      "referrer": "http://192.168.0.73:5230/shop?category=Standard+LEGO+Beyblades&color=&size="
+    },
+    {
+      "timestamp": "2025-11-04T15:52:33.879793",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/admin/coupons"
+    },
+    {
+      "timestamp": "2025-11-04T15:52:36.071118",
+      "date": "2025-11-04",
+      "page": "/",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop"
+    },
+    {
+      "timestamp": "2025-11-04T15:52:38.714997",
+      "date": "2025-11-04",
+      "page": "/convert",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/"
+    },
+    {
+      "timestamp": "2025-11-04T15:52:44.792325",
+      "date": "2025-11-04",
+      "page": "/",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1",
+      "referrer": "http://192.168.0.73:5230/convert"
+    },
+    {
+      "timestamp": "2025-11-04T15:52:57.325631",
+      "date": "2025-11-04",
+      "page": "/convert",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/"
+    },
+    {
+      "timestamp": "2025-11-04T15:52:58.354295",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/convert"
+    },
+    {
+      "timestamp": "2025-11-04T15:53:04.106636",
+      "date": "2025-11-04",
+      "page": "/product/lego-beyblade-cyclone-fury",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop"
+    },
+    {
+      "timestamp": "2025-11-04T15:53:05.565695",
+      "date": "2025-11-04",
+      "page": "/cart/add",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/product/lego-beyblade-cyclone-fury"
+    },
+    {
+      "timestamp": "2025-11-04T15:53:05.571871",
+      "date": "2025-11-04",
+      "page": "/product/lego-beyblade-cyclone-fury",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/product/lego-beyblade-cyclone-fury"
+    },
+    {
+      "timestamp": "2025-11-04T15:53:06.371611",
+      "date": "2025-11-04",
+      "page": "/cart",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/product/lego-beyblade-cyclone-fury"
+    },
+    {
+      "timestamp": "2025-11-04T15:53:23.163142",
+      "date": "2025-11-04",
+      "page": "/cart",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/product/lego-beyblade-cyclone-fury"
+    },
+    {
+      "timestamp": "2025-11-04T15:53:26.062458",
+      "date": "2025-11-04",
+      "page": "/cart",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/product/lego-beyblade-cyclone-fury"
+    },
+    {
+      "timestamp": "2025-11-04T15:53:26.570605",
+      "date": "2025-11-04",
+      "page": "/cart",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/product/lego-beyblade-cyclone-fury"
+    },
+    {
+      "timestamp": "2025-11-04T15:53:26.709315",
+      "date": "2025-11-04",
+      "page": "/cart",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/product/lego-beyblade-cyclone-fury"
+    },
+    {
+      "timestamp": "2025-11-04T15:53:27.943268",
+      "date": "2025-11-04",
+      "page": "/product/lego-beyblade-cyclone-fury",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop"
+    },
+    {
+      "timestamp": "2025-11-04T15:54:48.380993",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/admin/coupons"
+    },
+    {
+      "timestamp": "2025-11-04T15:55:19.312510",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/convert"
+    },
+    {
+      "timestamp": "2025-11-04T15:55:19.704047",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/convert"
+    },
+    {
+      "timestamp": "2025-11-04T15:55:19.894696",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/convert"
+    },
+    {
+      "timestamp": "2025-11-04T15:55:20.175135",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/convert"
+    },
+    {
+      "timestamp": "2025-11-04T15:55:23.925333",
+      "date": "2025-11-04",
+      "page": "/cart",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop"
+    },
+    {
+      "timestamp": "2025-11-04T15:55:27.768678",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop"
+    },
+    {
+      "timestamp": "2025-11-04T15:55:28.817039",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop?category=Standard+LEGO+Beyblades&color=&size="
+    },
+    {
+      "timestamp": "2025-11-04T15:55:38.615710",
+      "date": "2025-11-04",
+      "page": "/",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/admin/products"
+    },
+    {
+      "timestamp": "2025-11-04T15:56:25.547338",
+      "date": "2025-11-04",
+      "page": "/",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/admin/products"
+    },
+    {
+      "timestamp": "2025-11-04T16:05:36.496592",
+      "date": "2025-11-04",
+      "page": "/cart",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/"
+    },
+    {
+      "timestamp": "2025-11-04T17:00:05.046157",
+      "date": "2025-11-04",
+      "page": "/cart",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/"
+    },
+    {
+      "timestamp": "2025-11-04T17:00:08.239586",
+      "date": "2025-11-04",
+      "page": "/cart",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/cart"
+    },
+    {
+      "timestamp": "2025-11-04T17:00:09.272696",
+      "date": "2025-11-04",
+      "page": "/convert",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/cart"
+    },
+    {
+      "timestamp": "2025-11-04T17:00:18.024727",
+      "date": "2025-11-04",
+      "page": "/convert",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/convert"
+    },
+    {
+      "timestamp": "2025-11-04T17:00:18.923803",
+      "date": "2025-11-04",
+      "page": "/",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/convert"
+    },
+    {
+      "timestamp": "2025-11-04T17:02:30.690967",
+      "date": "2025-11-04",
+      "page": "/cart",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/"
+    },
+    {
+      "timestamp": "2025-11-04T21:42:42.432041",
+      "date": "2025-11-04",
+      "page": "/cart",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/"
+    },
+    {
+      "timestamp": "2025-11-04T21:42:43.043966",
+      "date": "2025-11-04",
+      "page": "/cart",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/"
+    },
+    {
+      "timestamp": "2025-11-04T21:42:44.515462",
+      "date": "2025-11-04",
+      "page": "/cart",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/cart"
+    },
+    {
+      "timestamp": "2025-11-04T21:42:44.748382",
+      "date": "2025-11-04",
+      "page": "/cart",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/cart"
+    },
+    {
+      "timestamp": "2025-11-04T21:42:45.734555",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/cart"
+    },
+    {
+      "timestamp": "2025-11-04T21:42:56.295689",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop"
+    },
+    {
+      "timestamp": "2025-11-04T21:42:56.917575",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/shop?category=Standard+LEGO+Beyblades&color=&size="
+    },
+    {
+      "timestamp": "2025-11-04T21:43:03.683001",
+      "date": "2025-11-04",
+      "page": "/shop",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/admin/coupons"
+    },
+    {
+      "timestamp": "2025-11-04T21:43:12.935128",
+      "date": "2025-11-04",
+      "page": "/",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/admin"
+    },
+    {
+      "timestamp": "2025-11-04T21:43:17.286509",
+      "date": "2025-11-04",
+      "page": "/",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": ""
+    },
+    {
+      "timestamp": "2025-11-12T14:17:26.865802",
+      "date": "2025-11-12",
+      "page": "/",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+      "referrer": ""
+    },
+    {
+      "timestamp": "2025-11-12T14:17:29.660986",
+      "date": "2025-11-12",
+      "page": "/convert",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/"
+    },
+    {
+      "timestamp": "2025-11-12T14:17:45.570504",
+      "date": "2025-11-12",
+      "page": "/upload",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/convert"
+    },
+    {
+      "timestamp": "2025-11-12T14:17:47.197384",
+      "date": "2025-11-12",
+      "page": "/download/a4044977-c328-4217-8135-cccc9dae8abe.stl",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/upload"
+    },
+    {
+      "timestamp": "2025-11-12T14:18:19.038579",
+      "date": "2025-11-12",
+      "page": "/upload",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/upload"
+    },
+    {
+      "timestamp": "2025-11-12T14:18:19.130889",
+      "date": "2025-11-12",
+      "page": "/favicon.ico",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/upload"
+    },
+    {
+      "timestamp": "2025-11-12T14:19:47.702588",
+      "date": "2025-11-12",
+      "page": "/upload",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/upload"
+    },
+    {
+      "timestamp": "2025-11-12T14:19:54.054318",
+      "date": "2025-11-12",
+      "page": "/cart",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/upload"
+    },
+    {
+      "timestamp": "2025-11-12T14:19:56.115232",
+      "date": "2025-11-12",
+      "page": "/cart/remove",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/cart"
+    },
+    {
+      "timestamp": "2025-11-12T14:19:56.122467",
+      "date": "2025-11-12",
+      "page": "/cart",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/cart"
+    },
+    {
+      "timestamp": "2025-11-12T20:07:19.784812",
+      "date": "2025-11-12",
+      "page": "/",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+      "referrer": ""
+    },
+    {
+      "timestamp": "2025-11-12T20:07:21.386640",
+      "date": "2025-11-12",
+      "page": "/convert",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/"
+    },
+    {
+      "timestamp": "2025-11-12T20:07:29.982063",
+      "date": "2025-11-12",
+      "page": "/upload",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/convert"
+    },
+    {
+      "timestamp": "2025-11-12T20:07:32.224674",
+      "date": "2025-11-12",
+      "page": "/download/Screenshot_2025-11-12_at_20.06.12.stl",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/upload"
+    },
+    {
+      "timestamp": "2025-11-12T20:08:03.847952",
+      "date": "2025-11-12",
+      "page": "/download/Screenshot_2025-11-12_at_20.06.12.stl",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/upload"
+    },
+    {
+      "timestamp": "2025-11-12T20:08:08.200720",
+      "date": "2025-11-12",
+      "page": "/download/Screenshot_2025-11-12_at_20.06.12.stl",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/upload"
+    },
+    {
+      "timestamp": "2025-11-12T20:08:10.115516",
+      "date": "2025-11-12",
+      "page": "/upload",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/upload"
+    },
+    {
+      "timestamp": "2025-11-12T20:08:14.757532",
+      "date": "2025-11-12",
+      "page": "/upload",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/upload"
+    },
+    {
+      "timestamp": "2025-11-12T20:08:23.099130",
+      "date": "2025-11-12",
+      "page": "/convert",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/upload"
+    },
+    {
+      "timestamp": "2025-11-12T20:08:32.280701",
+      "date": "2025-11-12",
+      "page": "/upload",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/convert"
+    },
+    {
+      "timestamp": "2025-11-12T20:08:33.221714",
+      "date": "2025-11-12",
+      "page": "/download/Screenshot_2025-11-12_at_20.06.12.stl",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/upload"
+    },
+    {
+      "timestamp": "2025-11-12T20:33:51.672493",
+      "date": "2025-11-12",
+      "page": "/upload",
+      "country": "Unknown",
+      "ip_address": "192.168.0.73",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.73:5230/upload"
+    },
+    {
+      "timestamp": "2025-11-13T00:00:29.559382",
+      "date": "2025-11-13",
+      "page": "/",
+      "country": "Unknown",
+      "ip_address": "180.15.128.163",
+      "user_agent": "WhatsApp/2.23.20.0",
+      "referrer": ""
+    },
+    {
+      "timestamp": "2025-11-13T00:00:29.758365",
+      "date": "2025-11-13",
+      "page": "/favicon.ico",
+      "country": "Unknown",
+      "ip_address": "180.15.128.163",
+      "user_agent": "WhatsApp/2.23.20.0",
+      "referrer": ""
+    },
+    {
+      "timestamp": "2025-11-13T00:00:40.442414",
+      "date": "2025-11-13",
+      "page": "/",
+      "country": "Unknown",
+      "ip_address": "2407:c800:3f12:e42:c456:f20d:4c5e:80ef",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "referrer": ""
+    },
+    {
+      "timestamp": "2025-11-13T00:00:46.612099",
+      "date": "2025-11-13",
+      "page": "/",
+      "country": "Unknown",
+      "ip_address": "2400:4051:1e3:aa00:c478:44fd:539f:d91c",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+      "referrer": ""
+    },
+    {
+      "timestamp": "2025-11-13T00:00:56.094525",
+      "date": "2025-11-13",
+      "page": "/convert",
+      "country": "Unknown",
+      "ip_address": "2400:4051:1e3:aa00:c478:44fd:539f:d91c",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+      "referrer": "https://31eddaca20a7.ngrok-free.app/"
+    },
+    {
+      "timestamp": "2025-11-13T00:01:02.535056",
+      "date": "2025-11-13",
+      "page": "/",
+      "country": "Unknown",
+      "ip_address": "2400:4051:1e3:aa00:c478:44fd:539f:d91c",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+      "referrer": "https://31eddaca20a7.ngrok-free.app/convert"
+    },
+    {
+      "timestamp": "2025-11-30T01:13:36.032449",
+      "date": "2025-11-30",
+      "page": "/",
+      "country": "Unknown",
+      "ip_address": "192.168.0.72",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+      "referrer": ""
+    },
+    {
+      "timestamp": "2025-11-30T01:14:40.038582",
+      "date": "2025-11-30",
+      "page": "/",
+      "country": "Unknown",
+      "ip_address": "192.168.0.72",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+      "referrer": ""
+    },
+    {
+      "timestamp": "2025-11-30T01:14:41.229375",
+      "date": "2025-11-30",
+      "page": "/shop",
+      "country": "Unknown",
+      "ip_address": "192.168.0.72",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.72:5230/"
+    },
+    {
+      "timestamp": "2025-11-30T01:14:47.258348",
+      "date": "2025-11-30",
+      "page": "/shop",
+      "country": "Unknown",
+      "ip_address": "192.168.0.72",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.72:5230/shop"
+    },
+    {
+      "timestamp": "2025-11-30T01:14:48.295181",
+      "date": "2025-11-30",
+      "page": "/product/lego-beyblade-aquashade",
+      "country": "Unknown",
+      "ip_address": "192.168.0.72",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.72:5230/shop?category=Standard+LEGO+Beyblades&color=&size="
+    },
+    {
+      "timestamp": "2025-11-30T01:15:02.557388",
+      "date": "2025-11-30",
+      "page": "/convert",
+      "country": "Unknown",
+      "ip_address": "192.168.0.72",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.72:5230/product/lego-beyblade-aquashade"
+    },
+    {
+      "timestamp": "2025-11-30T01:17:03.624995",
+      "date": "2025-11-30",
+      "page": "/upload",
+      "country": "Unknown",
+      "ip_address": "192.168.0.72",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.72:5230/convert"
+    },
+    {
+      "timestamp": "2025-11-30T01:17:05.397679",
+      "date": "2025-11-30",
+      "page": "/download/Screenshot_2025-11-30_at_1.16.31.stl",
+      "country": "Unknown",
+      "ip_address": "192.168.0.72",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.72:5230/upload"
+    },
+    {
+      "timestamp": "2025-11-30T01:17:39.952917",
+      "date": "2025-11-30",
+      "page": "/upload",
+      "country": "Unknown",
+      "ip_address": "192.168.0.72",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.72:5230/upload"
+    },
+    {
+      "timestamp": "2025-11-30T01:17:40.074848",
+      "date": "2025-11-30",
+      "page": "/favicon.ico",
+      "country": "Unknown",
+      "ip_address": "192.168.0.72",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.72:5230/upload"
+    },
+    {
+      "timestamp": "2025-11-30T01:17:41.501708",
+      "date": "2025-11-30",
+      "page": "/upload",
+      "country": "Unknown",
+      "ip_address": "192.168.0.72",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.72:5230/upload"
+    },
+    {
+      "timestamp": "2025-11-30T01:17:47.701919",
+      "date": "2025-11-30",
+      "page": "/shop",
+      "country": "Unknown",
+      "ip_address": "192.168.0.72",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.72:5230/upload"
+    },
+    {
+      "timestamp": "2025-11-30T01:17:48.159529",
+      "date": "2025-11-30",
+      "page": "/convert",
+      "country": "Unknown",
+      "ip_address": "192.168.0.72",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.72:5230/shop"
+    },
+    {
+      "timestamp": "2025-11-30T01:18:07.008009",
+      "date": "2025-11-30",
+      "page": "/upload",
+      "country": "Unknown",
+      "ip_address": "192.168.0.72",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.72:5230/convert"
+    },
+    {
+      "timestamp": "2025-11-30T01:18:08.413024",
+      "date": "2025-11-30",
+      "page": "/download/Screenshot_2025-11-30_at_1.16.31.stl",
+      "country": "Unknown",
+      "ip_address": "192.168.0.72",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.72:5230/upload"
+    },
+    {
+      "timestamp": "2025-11-30T01:19:55.787564",
+      "date": "2025-11-30",
+      "page": "/upload",
+      "country": "Unknown",
+      "ip_address": "192.168.0.72",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.72:5230/convert"
+    },
+    {
+      "timestamp": "2025-11-30T01:19:57.948357",
+      "date": "2025-11-30",
+      "page": "/upload",
+      "country": "Unknown",
+      "ip_address": "192.168.0.72",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.72:5230/upload"
+    },
+    {
+      "timestamp": "2025-11-30T01:20:00.062327",
+      "date": "2025-11-30",
+      "page": "/upload",
+      "country": "Unknown",
+      "ip_address": "192.168.0.72",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+      "referrer": ""
+    },
+    {
+      "timestamp": "2025-11-30T01:20:02.085704",
+      "date": "2025-11-30",
+      "page": "/",
+      "country": "Unknown",
+      "ip_address": "192.168.0.72",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+      "referrer": ""
+    },
+    {
+      "timestamp": "2025-11-30T01:20:03.034465",
+      "date": "2025-11-30",
+      "page": "/convert",
+      "country": "Unknown",
+      "ip_address": "192.168.0.72",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.72:5230/"
+    },
+    {
+      "timestamp": "2025-11-30T01:20:40.324510",
+      "date": "2025-11-30",
+      "page": "/upload",
+      "country": "Unknown",
+      "ip_address": "192.168.0.72",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.72:5230/convert"
+    },
+    {
+      "timestamp": "2025-11-30T01:20:41.531986",
+      "date": "2025-11-30",
+      "page": "/download/Screenshot_2025-11-30_at_1.16.31.stl",
+      "country": "Unknown",
+      "ip_address": "192.168.0.72",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.72:5230/upload"
+    },
+    {
+      "timestamp": "2025-11-30T01:21:22.440481",
+      "date": "2025-11-30",
+      "page": "/convert",
+      "country": "Unknown",
+      "ip_address": "192.168.0.72",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.72:5230/upload"
+    },
+    {
+      "timestamp": "2025-11-30T01:21:30.902495",
+      "date": "2025-11-30",
+      "page": "/upload",
+      "country": "Unknown",
+      "ip_address": "192.168.0.72",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.72:5230/convert"
+    },
+    {
+      "timestamp": "2025-11-30T01:21:32.067806",
+      "date": "2025-11-30",
+      "page": "/download/Screenshot_2025-11-30_at_1.16.31.stl",
+      "country": "Unknown",
+      "ip_address": "192.168.0.72",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.72:5230/upload"
+    },
+    {
+      "timestamp": "2025-11-30T01:22:07.402282",
+      "date": "2025-11-30",
+      "page": "/download/Screenshot_2025-11-30_at_1.16.31.stl",
+      "country": "Unknown",
+      "ip_address": "192.168.0.72",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.72:5230/upload"
+    },
+    {
+      "timestamp": "2025-11-30T01:22:11.085412",
+      "date": "2025-11-30",
+      "page": "/convert",
+      "country": "Unknown",
+      "ip_address": "192.168.0.72",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.72:5230/upload"
+    },
+    {
+      "timestamp": "2025-11-30T01:22:23.488298",
+      "date": "2025-11-30",
+      "page": "/upload",
+      "country": "Unknown",
+      "ip_address": "192.168.0.72",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.72:5230/convert"
+    },
+    {
+      "timestamp": "2025-11-30T01:22:24.719354",
+      "date": "2025-11-30",
+      "page": "/download/Screenshot_2025-11-30_at_1.16.31.stl",
+      "country": "Unknown",
+      "ip_address": "192.168.0.72",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.72:5230/upload"
+    },
+    {
+      "timestamp": "2025-11-30T01:23:08.102848",
+      "date": "2025-11-30",
+      "page": "/upload",
+      "country": "Unknown",
+      "ip_address": "192.168.0.72",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.72:5230/upload"
+    },
+    {
+      "timestamp": "2025-11-30T13:43:35.717718",
+      "date": "2025-11-30",
+      "page": "/",
+      "country": "Unknown",
+      "ip_address": "192.168.0.72",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+      "referrer": ""
+    },
+    {
+      "timestamp": "2025-11-30T13:43:37.849109",
+      "date": "2025-11-30",
+      "page": "/convert",
+      "country": "Unknown",
+      "ip_address": "192.168.0.72",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.72:5230/"
+    },
+    {
+      "timestamp": "2025-11-30T13:44:00.401303",
+      "date": "2025-11-30",
+      "page": "/upload",
+      "country": "Unknown",
+      "ip_address": "192.168.0.72",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.72:5230/convert"
+    },
+    {
+      "timestamp": "2025-11-30T13:44:01.605800",
+      "date": "2025-11-30",
+      "page": "/download/Screenshot_2025-11-30_at_13.43.50.stl",
+      "country": "Unknown",
+      "ip_address": "192.168.0.72",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.72:5230/upload"
+    },
+    {
+      "timestamp": "2025-11-30T13:44:32.822736",
+      "date": "2025-11-30",
+      "page": "/convert",
+      "country": "Unknown",
+      "ip_address": "192.168.0.72",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.72:5230/upload"
+    },
+    {
+      "timestamp": "2025-11-30T13:44:41.077005",
+      "date": "2025-11-30",
+      "page": "/upload",
+      "country": "Unknown",
+      "ip_address": "192.168.0.72",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.72:5230/convert"
+    },
+    {
+      "timestamp": "2025-11-30T13:44:42.283062",
+      "date": "2025-11-30",
+      "page": "/download/Screenshot_2025-11-30_at_13.44.29.stl",
+      "country": "Unknown",
+      "ip_address": "192.168.0.72",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.72:5230/upload"
+    },
+    {
+      "timestamp": "2026-06-24T15:43:51.380018",
+      "date": "2026-06-24",
+      "page": "/",
+      "country": "Unknown",
+      "ip_address": "192.168.0.67",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "referrer": ""
+    },
+    {
+      "timestamp": "2026-06-24T15:43:53.490281",
+      "date": "2026-06-24",
+      "page": "/convert",
+      "country": "Unknown",
+      "ip_address": "192.168.0.67",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.67:5230/"
+    },
+    {
+      "timestamp": "2026-06-24T15:44:03.596460",
+      "date": "2026-06-24",
+      "page": "/upload",
+      "country": "Unknown",
+      "ip_address": "192.168.0.67",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.67:5230/convert"
+    },
+    {
+      "timestamp": "2026-06-24T15:44:04.818393",
+      "date": "2026-06-24",
+      "page": "/upload",
+      "country": "Unknown",
+      "ip_address": "192.168.0.67",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.67:5230/convert"
+    },
+    {
+      "timestamp": "2026-06-24T15:46:11.219504",
+      "date": "2026-06-24",
+      "page": "/download/cristiano-ronaldo-10.stl",
+      "country": "Unknown",
+      "ip_address": "192.168.0.67",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.67:5230/upload"
+    },
+    {
+      "timestamp": "2026-06-24T15:46:33.030549",
+      "date": "2026-06-24",
+      "page": "/upload",
+      "country": "Unknown",
+      "ip_address": "192.168.0.67",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.67:5230/upload"
+    },
+    {
+      "timestamp": "2026-06-24T15:46:33.148589",
+      "date": "2026-06-24",
+      "page": "/favicon.ico",
+      "country": "Unknown",
+      "ip_address": "192.168.0.67",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "referrer": "http://192.168.0.67:5230/upload"
+    }
+  ],
+  "daily_stats": {
+    "2025-11-04": {
+      "visits": 154,
+      "unique_visitors": 0
+    },
+    "2025-11-12": {
+      "visits": 22,
+      "unique_visitors": 0
+    },
+    "2025-11-13": {
+      "visits": 6,
+      "unique_visitors": 0
+    },
+    "2025-11-30": {
+      "visits": 37,
+      "unique_visitors": 0
+    },
+    "2026-06-24": {
+      "visits": 7,
+      "unique_visitors": 0
+    }
+  },
+  "country_stats": {
+    "US": {
+      "visits": 17,
+      "last_visit": "2025-11-04T13:19:44.954627"
+    },
+    "Unknown": {
+      "visits": 209,
+      "last_visit": "2026-06-24T15:46:33.148608"
+    }
+  },
+  "page_stats": {
+    "/shop": {
+      "visits": 82
+    },
+    "/product/lego": {
+      "visits": 10
+    },
+    "/": {
+      "visits": 24
+    },
+    "/product/lego-beyblade-aquashade": {
+      "visits": 28
+    },
+    "/product/lego-beyblade-cyclone-fury": {
+      "visits": 4
+    },
+    "/convert": {
+      "visits": 18
+    },
+    "/cart/add": {
+      "visits": 1
+    },
+    "/cart": {
+      "visits": 16
+    },
+    "/upload": {
+      "visits": 24
+    },
+    "/download/a4044977-c328-4217-8135-cccc9dae8abe.stl": {
+      "visits": 1
+    },
+    "/favicon.ico": {
+      "visits": 4
+    },
+    "/cart/remove": {
+      "visits": 1
+    },
+    "/download/Screenshot_2025-11-12_at_20.06.12.stl": {
+      "visits": 4
+    },
+    "/download/Screenshot_2025-11-30_at_1.16.31.stl": {
+      "visits": 6
+    },
+    "/download/Screenshot_2025-11-30_at_13.43.50.stl": {
+      "visits": 1
+    },
+    "/download/Screenshot_2025-11-30_at_13.44.29.stl": {
+      "visits": 1
+    },
+    "/download/cristiano-ronaldo-10.stl": {
+      "visits": 1
+    }
+  },
+  "first_visit": "2025-11-04T13:09:12.116709",
+  "last_update": "2026-06-24T15:46:33.148631"
+}
